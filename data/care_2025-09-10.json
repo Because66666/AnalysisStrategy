@@ -1,0 +1,47 @@
+[
+    {
+        "code": "600299",
+        "name": "安迪苏",
+        "buy_price": 9.78,
+        "start_time": "2025-09-10 06:55:13",
+        "current_price": 9.78,
+        "main_net_ratio": 22.82,
+        "today_change": -0.31
+    },
+    {
+        "code": "000900",
+        "name": "现代投资",
+        "buy_price": 4.2,
+        "start_time": "2025-09-10 06:55:13",
+        "current_price": 4.2,
+        "main_net_ratio": 19.08,
+        "today_change": -0.47
+    },
+    {
+        "code": "002039",
+        "name": "黔源电力",
+        "buy_price": 16.59,
+        "start_time": "2025-09-10 06:55:13",
+        "current_price": 16.59,
+        "main_net_ratio": 16.84,
+        "today_change": -0.3
+    },
+    {
+        "code": "688239",
+        "name": "航宇科技",
+        "buy_price": 37.82,
+        "start_time": "2025-09-10 06:55:13",
+        "current_price": 37.82,
+        "main_net_ratio": 16.01,
+        "today_change": -0.13
+    },
+    {
+        "code": "000963",
+        "name": "华东医药",
+        "buy_price": 42.3,
+        "start_time": "2025-09-10 06:55:13",
+        "current_price": 42.3,
+        "main_net_ratio": 14.56,
+        "today_change": -0.47
+    }
+]
