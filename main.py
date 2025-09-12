@@ -5,6 +5,7 @@ from datetime import datetime
 import pandas as pd
 import shutil
 import logging
+import time
 
 class StockAnalyzer:
     def __init__(self):
@@ -42,17 +43,43 @@ class StockAnalyzer:
         self.logger = logging.getLogger(__name__)
         self.logger.info(f"股票分析程序启动 - {self.current_time}")
     
+    def fetch_data_by_ak(self, method_name, max_retries=3, retry_delay=25, **kwargs):
+        """统一的akshare数据获取方法，支持重试机制"""
+        for attempt in range(max_retries):
+            try:
+                match method_name:
+                    case "trade_calendar":
+                        self.logger.info(f"开始获取交易日历数据（第{attempt + 1}次尝试）")
+                        data = ak.tool_trade_date_hist_sina()
+                        self.logger.info(f"成功获取交易日历数据，共{len(data)}条记录")
+                        return data
+                    case "stock_spot":
+                        self.logger.info(f"开始获取A股现货数据（第{attempt + 1}次尝试）")
+                        data = ak.stock_zh_a_spot_em()
+                        self.logger.info(f"成功获取A股现货数据，共{len(data)}只股票")
+                        return data
+                    case "main_fund_flow":
+                        symbol = kwargs.get('symbol', '全部股票')
+                        self.logger.info(f"开始获取主力资金流向数据（第{attempt + 1}次尝试）")
+                        data = ak.stock_main_fund_flow(symbol=symbol)
+                        self.logger.info(f"获取到主力资金流向数据，共{len(data)}只股票")
+                        return data
+                    case _:
+                        self.logger.error(f"不支持的akshare方法: {method_name}")
+                        return None
+            except Exception as e:
+                self.logger.error(f"获取{method_name}数据失败（第{attempt + 1}次尝试）: {e}")
+                if attempt < max_retries - 1:
+                    self.logger.info(f"等待{retry_delay}秒后重试...")
+                    time.sleep(retry_delay)
+                else:
+                    self.logger.error(f"获取{method_name}数据最终失败，已重试{max_retries}次")
+        
+        return None
+    
     def get_trade_calendar(self):
         """获取交易日历"""
-        try:
-            self.logger.info("开始获取交易日历数据")
-            trade_calendar_df = ak.tool_trade_date_hist_sina()
-            self.logger.info(f"成功获取交易日历数据，共{len(trade_calendar_df)}条记录")
-            return trade_calendar_df
-        except Exception as e:
-            self.logger.error(f"获取交易日历失败: {e}")
-            # # print(f"获取交易日历失败: {e}")
-            return None
+        return self.fetch_data_by_ak("trade_calendar")
     
     def is_trading_day(self):
         """检查今天是否是交易日"""
@@ -90,41 +117,28 @@ class StockAnalyzer:
     
     def get_stock_data(self):
         """获取股票数据"""
-        try:
-            self.logger.info("开始获取A股现货数据")
-            stock_zh_a_spot_em_df = ak.stock_zh_a_spot_em()
-            self.logger.info(f"成功获取A股现货数据，共{len(stock_zh_a_spot_em_df)}只股票")
-            return stock_zh_a_spot_em_df
-        except Exception as e:
-            self.logger.error(f"获取股票数据失败: {e}")
-            # # print(f"获取股票数据失败: {e}")
-            return None
+        return self.fetch_data_by_ak("stock_spot")
     
     def get_main_fund_flow(self):
         """获取主力净流入排名"""
-        try:
-            self.logger.info("开始获取主力资金流向数据")
-            stock_main_fund_flow_df = ak.stock_main_fund_flow(symbol="全部股票")
-            df = stock_main_fund_flow_df
-            
-            self.logger.info(f"获取到主力资金流向数据，共{len(df)}只股票")
-            
-            filtered_df = df[
-                (df["最新价"].notna()) &
-                (df["今日排行榜-主力净占比"] > 0) &
-                (~df["名称"].str.contains("ST", na=False)) &
-                (df["今日排行榜-今日涨跌"] < 0)
-            ]
-            
-            self.logger.info(f"筛选后符合条件的股票数量: {len(filtered_df)}")
-            
-            # 按照"今日排行榜-主力净占比"倒序排列
-            result_df = filtered_df.sort_values(by="今日排行榜-主力净占比", ascending=False)
-            return result_df, stock_main_fund_flow_df
-        except Exception as e:
-            self.logger.error(f"获取主力净流入排名失败: {e}")
-            # print(f"获取主力净流入排名失败: {e}")
+        stock_main_fund_flow_df = self.fetch_data_by_ak("main_fund_flow", symbol="全部股票")
+        if stock_main_fund_flow_df is None:
             return None, None
+            
+        df = stock_main_fund_flow_df
+        
+        filtered_df = df[
+            (df["最新价"].notna()) &
+            (df["今日排行榜-主力净占比"] > 0) &
+            (~df["名称"].str.contains("ST", na=False)) &
+            (df["今日排行榜-今日涨跌"] < 0)
+        ]
+        
+        self.logger.info(f"筛选后符合条件的股票数量: {len(filtered_df)}")
+        
+        # 按照"今日排行榜-主力净占比"倒序排列
+        result_df = filtered_df.sort_values(by="今日排行榜-主力净占比", ascending=False)
+        return result_df, stock_main_fund_flow_df
     
     def analyze_stocks(self):
         """分析股票"""

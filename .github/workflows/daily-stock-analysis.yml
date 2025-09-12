@@ -3,7 +3,7 @@ name: Daily Stock Analysis
 # 每日北京时间14:50运行 (UTC时间06:50)
 on:
   schedule:
-    - cron: '50 6 * * *'  # UTC时间，对应北京时间14:50
+    - cron: '40 6 * * *'  # UTC时间，对应北京时间14:40
   workflow_dispatch:  # 允许手动触发
 
 jobs:
