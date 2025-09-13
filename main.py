@@ -115,6 +115,23 @@ class StockAnalyzer:
             self.logger.info("care.json文件不存在，返回空列表")
             return []
     
+    def load_previous_settlements(self):
+        """从result.json中读取上一周期的结算结果"""
+        result_json_file = os.path.join(self.current_dir, 'result.json')
+        if os.path.exists(result_json_file):
+            try:
+                with open(result_json_file, 'r', encoding='utf-8') as f:
+                    data = json.load(f)
+                    previous_settlements = data.get('settled_stocks', [])
+                self.logger.info(f"成功加载历史结算记录，共{len(previous_settlements)}条记录")
+                return previous_settlements
+            except Exception as e:
+                self.logger.error(f"读取result.json失败: {e}")
+                return []
+        else:
+            self.logger.info("result.json文件不存在，返回空列表")
+            return []
+    
     def get_stock_data(self):
         """获取股票数据"""
         return self.fetch_data_by_ak("stock_spot")
@@ -180,14 +197,41 @@ class StockAnalyzer:
             stock_code = stock['code']
             # 在主力净流入数据中查找该股票
             stock_flow_data = main_fund_flow_df[main_fund_flow_df['代码'] == stock_code]
-            
+            stock_all_data = stock_data[stock_data['代码'] == stock_code]
+            if not stock_all_data.empty:
+                highest_price = stock_all_data.iloc[0]['最高']
+            else:
+                highest_price = None
+
             if not stock_flow_data.empty:
                 main_net_ratio = stock_flow_data.iloc[0]['今日排行榜-主力净占比']
                 current_price = stock_flow_data.iloc[0]['最新价']
                 today_change = stock_flow_data.iloc[0]['今日排行榜-今日涨跌']
                 stock_name = stock_flow_data.iloc[0]['名称']
                 
+                # 计算今日最高价与模拟买入价格的差值
+                price_difference = current_price - stock['buy_price']
+
                 if main_net_ratio < -5:
+                    # 结算股票
+                    profit_loss = current_price - stock['buy_price']
+                    if highest_price:
+                        if highest_price > stock['buy_price']:
+                            profit_loss = 0 # 假设最高价大于买入价格的时候，在当前价格与买入价格相等时候卖出
+                    self.logger.info(f"股票{stock_code}({stock_name})触发卖出条件，主力净占比{main_net_ratio}%，盈亏{profit_loss:.2f}")
+                    settled_stock = {
+                        'code': stock_code,
+                        'name': stock_name,
+                        'buy_price': stock['buy_price'],
+                        'start_time': stock['start_time'],
+                        'current_price': current_price,
+                        'main_net_ratio': main_net_ratio,
+                        'today_change': today_change,
+                        'profit_loss': profit_loss,
+                        'remark': f"主力净占比{main_net_ratio}%小于-5%，触发卖出条件"
+                    }
+                    settled_stocks.append(settled_stock)
+                elif today_change > 10 :
                     # 结算股票
                     profit_loss = current_price - stock['buy_price']
                     self.logger.info(f"股票{stock_code}({stock_name})触发卖出条件，主力净占比{main_net_ratio}%，盈亏{profit_loss:.2f}")
@@ -200,7 +244,26 @@ class StockAnalyzer:
                         'main_net_ratio': main_net_ratio,
                         'today_change': today_change,
                         'profit_loss': profit_loss,
-                        'remark': f"主力净占比{main_net_ratio}%小于-5%，触发卖出条件"
+                        'remark': f"今日涨幅{main_net_ratio}%大于10%，触发卖出条件"
+                    }
+                    settled_stocks.append(settled_stock)
+                elif today_change > 0 and main_net_ratio < 0:
+                    # 结算股票
+                    profit_loss = current_price - stock['buy_price']
+                    if highest_price:
+                        if highest_price > stock['buy_price']:
+                            profit_loss = 0 # 假设最高价大于买入价格的时候，在当前价格与买入价格相等时候卖出
+                    self.logger.info(f"股票{stock_code}({stock_name})触发卖出条件，主力净占比{main_net_ratio}%，盈亏{profit_loss:.2f}")
+                    settled_stock = {
+                        'code': stock_code,
+                        'name': stock_name,
+                        'buy_price': stock['buy_price'],
+                        'start_time': stock['start_time'],
+                        'current_price': current_price,
+                        'main_net_ratio': main_net_ratio,
+                        'today_change': today_change,
+                        'profit_loss': profit_loss,
+                        'remark': f"今日涨幅{main_net_ratio}%大于0%，且主力净占比{main_net_ratio}%小于0%，触发卖出条件"
                     }
                     settled_stocks.append(settled_stock)
                 else:
@@ -240,11 +303,18 @@ class StockAnalyzer:
                     }
                     updated_care_stocks.append(new_stock)
         
+        # 加载历史结算记录
+        previous_settlements = self.load_previous_settlements()
+        
+        # 合并当前结算和历史结算
+        all_settled_stocks = previous_settlements + settled_stocks
+        
         # 保存结果
         self.save_care_stocks(updated_care_stocks)
-        self.save_result_report(updated_care_stocks, settled_stocks)
+        self.save_settlements_to_json(all_settled_stocks)
+        self.save_result_report(updated_care_stocks, all_settled_stocks)
         
-        self.logger.info(f"股票分析完成，当前关注{len(updated_care_stocks)}只股票，结算{len(settled_stocks)}只股票")
+        self.logger.info(f"股票分析完成，当前关注{len(updated_care_stocks)}只股票，本次结算{len(settled_stocks)}只股票，历史结算{len(previous_settlements)}只股票")
         # print(f"分析完成，当前关注{len(updated_care_stocks)}只股票，结算{len(settled_stocks)}只股票")
     
     def save_care_stocks(self, care_stocks):
@@ -263,6 +333,22 @@ class StockAnalyzer:
         except Exception as e:
             self.logger.error(f"保存care.json失败: {e}")
             # print(f"保存care.json失败: {e}")
+    
+    def save_settlements_to_json(self, settled_stocks):
+        """保存结算结果到result.json"""
+        try:
+            result_json_file = os.path.join(self.current_dir, 'result.json')
+            result_data = {
+                'last_update': self.current_time,
+                'settled_stocks': settled_stocks
+            }
+            
+            with open(result_json_file, 'w', encoding='utf-8') as f:
+                json.dump(result_data, f, ensure_ascii=False, indent=4)
+            
+            self.logger.info(f"result.json已保存，共{len(settled_stocks)}条结算记录")
+        except Exception as e:
+            self.logger.error(f"保存result.json失败: {e}")
     
     def save_result_report(self, care_stocks, settled_stocks):
         """保存分析结果到result.md"""
