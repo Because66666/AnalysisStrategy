@@ -244,15 +244,12 @@ class StockAnalyzer:
                         'main_net_ratio': main_net_ratio,
                         'today_change': today_change,
                         'profit_loss': profit_loss,
-                        'remark': f"今日涨幅{main_net_ratio}%大于10%，触发卖出条件"
+                        'remark': f"今日涨幅{today_change}%大于10%，触发卖出条件"
                     }
                     settled_stocks.append(settled_stock)
                 elif today_change > 0 and main_net_ratio < 0:
                     # 结算股票
                     profit_loss = current_price - stock['buy_price']
-                    if highest_price:
-                        if highest_price > stock['buy_price']:
-                            profit_loss = 0 # 假设最高价大于买入价格的时候，在当前价格与买入价格相等时候卖出
                     self.logger.info(f"股票{stock_code}({stock_name})触发卖出条件，主力净占比{main_net_ratio}%，盈亏{profit_loss:.2f}")
                     settled_stock = {
                         'code': stock_code,
@@ -263,7 +260,7 @@ class StockAnalyzer:
                         'main_net_ratio': main_net_ratio,
                         'today_change': today_change,
                         'profit_loss': profit_loss,
-                        'remark': f"今日涨幅{main_net_ratio}%大于0%，且主力净占比{main_net_ratio}%小于0%，触发卖出条件"
+                        'remark': f"今日涨幅{today_change}%大于0%，且主力净占比{main_net_ratio}%小于0%，触发卖出条件"
                     }
                     settled_stocks.append(settled_stock)
                 else:
