@@ -1,0 +1,71 @@
+{
+    "last_update": "2025-09-15 06:55:23",
+    "settled_stocks": [
+        {
+            "code": "000963",
+            "name": "华东医药",
+            "buy_price": 42.3,
+            "start_time": "2025-09-10 06:55:13",
+            "current_price": 42.79,
+            "main_net_ratio": -7.65,
+            "today_change": -0.28,
+            "profit_loss": 0,
+            "remark": "主力净占比-7.65%小于-5%，触发卖出条件"
+        },
+        {
+            "code": "600350",
+            "name": "山东高速",
+            "buy_price": 9.11,
+            "start_time": "2025-09-11 06:55:58",
+            "current_price": 8.91,
+            "main_net_ratio": -6.57,
+            "today_change": -2.62,
+            "profit_loss": 0,
+            "remark": "主力净占比-6.57%小于-5%，触发卖出条件"
+        },
+        {
+            "code": "603137",
+            "name": "恒尚节能",
+            "buy_price": 14.6,
+            "start_time": "2025-09-11 06:55:58",
+            "current_price": 14.19,
+            "main_net_ratio": -7.4,
+            "today_change": 0.0,
+            "profit_loss": -0.41000000000000014,
+            "remark": "主力净占比-7.4%小于-5%，触发卖出条件"
+        },
+        {
+            "code": "600328",
+            "name": "中盐化工",
+            "buy_price": 7.97,
+            "start_time": "2025-09-11 06:55:58",
+            "current_price": 7.89,
+            "main_net_ratio": -8.23,
+            "today_change": -0.88,
+            "profit_loss": 0,
+            "remark": "主力净占比-8.23%小于-5%，触发卖出条件"
+        },
+        {
+            "code": "002591",
+            "name": "恒大高新",
+            "buy_price": 6.04,
+            "start_time": "2025-09-12 06:51:03",
+            "current_price": 5.99,
+            "main_net_ratio": -6.93,
+            "today_change": -0.99,
+            "profit_loss": 0,
+            "remark": "主力净占比-6.93%小于-5%，触发卖出条件"
+        },
+        {
+            "code": "688517",
+            "name": "金冠电气",
+            "buy_price": 15.22,
+            "start_time": "2025-09-12 06:51:03",
+            "current_price": 15.07,
+            "main_net_ratio": -34.63,
+            "today_change": -0.72,
+            "profit_loss": 0,
+            "remark": "主力净占比-34.63%小于-5%，触发卖出条件"
+        }
+    ]
+}
