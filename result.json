@@ -1,5 +1,5 @@
 {
-    "last_update": "2025-09-15 06:55:23",
+    "last_update": "2025-09-16 06:53:46",
     "settled_stocks": [
         {
             "code": "000963",
@@ -66,6 +66,28 @@
             "today_change": -0.72,
             "profit_loss": 0,
             "remark": "主力净占比-34.63%小于-5%，触发卖出条件"
+        },
+        {
+            "code": "300280",
+            "name": "紫天退",
+            "buy_price": 0.63,
+            "start_time": "2025-09-15 06:55:23",
+            "current_price": 0.58,
+            "main_net_ratio": -8.17,
+            "today_change": -7.94,
+            "profit_loss": 0,
+            "remark": "主力净占比-8.17%小于-5%，触发卖出条件"
+        },
+        {
+            "code": "301081",
+            "name": "严牌股份",
+            "buy_price": 10.58,
+            "start_time": "2025-09-15 06:55:23",
+            "current_price": 10.81,
+            "main_net_ratio": -1.63,
+            "today_change": 2.17,
+            "profit_loss": 0.23000000000000043,
+            "remark": "今日涨幅2.17%大于0%，且主力净占比-1.63%小于0%，触发卖出条件"
         }
     ]
 }
