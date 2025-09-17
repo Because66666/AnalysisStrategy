@@ -1,5 +1,5 @@
 {
-    "last_update": "2025-09-16 06:53:46",
+    "last_update": "2025-09-17 06:53:30",
     "settled_stocks": [
         {
             "code": "000963",
@@ -88,6 +88,17 @@
             "today_change": 2.17,
             "profit_loss": 0.23000000000000043,
             "remark": "今日涨幅2.17%大于0%，且主力净占比-1.63%小于0%，触发卖出条件"
+        },
+        {
+            "code": "600373",
+            "name": "中文传媒",
+            "buy_price": 10.21,
+            "start_time": "2025-09-16 06:53:46",
+            "current_price": 10.22,
+            "main_net_ratio": -6.13,
+            "today_change": -0.2,
+            "profit_loss": 0,
+            "remark": "主力净占比-6.13%小于-5%，触发卖出条件"
         }
     ]
 }
