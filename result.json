@@ -1,5 +1,5 @@
 {
-    "last_update": "2025-09-17 06:53:30",
+    "last_update": "2025-09-18 06:52:55",
     "settled_stocks": [
         {
             "code": "000963",
@@ -99,6 +99,61 @@
             "today_change": -0.2,
             "profit_loss": 0,
             "remark": "主力净占比-6.13%小于-5%，触发卖出条件"
+        },
+        {
+            "code": "688239",
+            "name": "航宇科技",
+            "buy_price": 37.82,
+            "start_time": "2025-09-10 06:55:13",
+            "current_price": 39.32,
+            "main_net_ratio": -3.49,
+            "today_change": 5.42,
+            "profit_loss": 1.5,
+            "remark": "今日涨幅5.42%大于0%，且主力净占比-3.49%小于0%，触发卖出条件"
+        },
+        {
+            "code": "600035",
+            "name": "楚天高速",
+            "buy_price": 4.07,
+            "start_time": "2025-09-11 06:55:58",
+            "current_price": 4.01,
+            "main_net_ratio": -15.24,
+            "today_change": -1.23,
+            "profit_loss": -0.0600000000000005,
+            "remark": "主力净占比-15.24%小于-5%，触发卖出条件"
+        },
+        {
+            "code": "601339",
+            "name": "百隆东方",
+            "buy_price": 5.47,
+            "start_time": "2025-09-12 06:51:03",
+            "current_price": 5.38,
+            "main_net_ratio": -6.6,
+            "today_change": -2.0,
+            "profit_loss": 0,
+            "remark": "主力净占比-6.6%小于-5%，触发卖出条件"
+        },
+        {
+            "code": "600861",
+            "name": "北京人力",
+            "buy_price": 19.8,
+            "start_time": "2025-09-16 06:53:46",
+            "current_price": 19.28,
+            "main_net_ratio": -8.62,
+            "today_change": -3.55,
+            "profit_loss": -0.5199999999999996,
+            "remark": "主力净占比-8.62%小于-5%，触发卖出条件"
+        },
+        {
+            "code": "600168",
+            "name": "武汉控股",
+            "buy_price": 5.02,
+            "start_time": "2025-09-17 06:53:30",
+            "current_price": 4.91,
+            "main_net_ratio": -13.5,
+            "today_change": -2.19,
+            "profit_loss": -0.10999999999999943,
+            "remark": "主力净占比-13.5%小于-5%，触发卖出条件"
         }
     ]
 }
