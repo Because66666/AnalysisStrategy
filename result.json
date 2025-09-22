@@ -1,5 +1,5 @@
 {
-    "last_update": "2025-09-18 06:52:55",
+    "last_update": "2025-09-22 06:55:33",
     "settled_stocks": [
         {
             "code": "000963",
@@ -154,6 +154,28 @@
             "today_change": -2.19,
             "profit_loss": -0.10999999999999943,
             "remark": "主力净占比-13.5%小于-5%，触发卖出条件"
+        },
+        {
+            "code": "300425",
+            "name": "中建环能",
+            "buy_price": 5.24,
+            "start_time": "2025-09-15 06:55:23",
+            "current_price": 5.09,
+            "main_net_ratio": -13.35,
+            "today_change": -0.97,
+            "profit_loss": -0.15000000000000036,
+            "remark": "主力净占比-13.35%小于-5%，触发卖出条件"
+        },
+        {
+            "code": "300970",
+            "name": "华绿生物",
+            "buy_price": 14.66,
+            "start_time": "2025-09-17 06:53:30",
+            "current_price": 13.99,
+            "main_net_ratio": -6.01,
+            "today_change": -1.41,
+            "profit_loss": -0.6699999999999999,
+            "remark": "主力净占比-6.01%小于-5%，触发卖出条件"
         }
     ]
 }
