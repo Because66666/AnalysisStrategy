@@ -1,5 +1,5 @@
 {
-    "last_update": "2025-09-22 06:55:33",
+    "last_update": "2025-09-23 06:54:27",
     "settled_stocks": [
         {
             "code": "000963",
@@ -176,6 +176,61 @@
             "today_change": -1.41,
             "profit_loss": -0.6699999999999999,
             "remark": "主力净占比-6.01%小于-5%，触发卖出条件"
+        },
+        {
+            "code": "000955",
+            "name": "欣龙控股",
+            "buy_price": 4.92,
+            "start_time": "2025-09-15 06:55:23",
+            "current_price": 4.89,
+            "main_net_ratio": -6.38,
+            "today_change": -1.61,
+            "profit_loss": 0,
+            "remark": "主力净占比-6.38%小于-5%，触发卖出条件"
+        },
+        {
+            "code": "688606",
+            "name": "奥泰生物",
+            "buy_price": 67.68,
+            "start_time": "2025-09-16 06:53:46",
+            "current_price": 66.69,
+            "main_net_ratio": -9.37,
+            "today_change": -1.51,
+            "profit_loss": 0,
+            "remark": "主力净占比-9.37%小于-5%，触发卖出条件"
+        },
+        {
+            "code": "002003",
+            "name": "伟星股份",
+            "buy_price": 10.35,
+            "start_time": "2025-09-17 06:53:30",
+            "current_price": 10.1,
+            "main_net_ratio": -8.44,
+            "today_change": -2.13,
+            "profit_loss": -0.25,
+            "remark": "主力净占比-8.44%小于-5%，触发卖出条件"
+        },
+        {
+            "code": "603299",
+            "name": "苏盐井神",
+            "buy_price": 10.57,
+            "start_time": "2025-09-18 06:52:55",
+            "current_price": 10.61,
+            "main_net_ratio": -0.15,
+            "today_change": 1.53,
+            "profit_loss": 0.03999999999999915,
+            "remark": "今日涨幅1.53%大于0%，且主力净占比-0.15%小于0%，触发卖出条件"
+        },
+        {
+            "code": "002259",
+            "name": "升达林业",
+            "buy_price": 4.1,
+            "start_time": "2025-09-18 06:52:55",
+            "current_price": 4.02,
+            "main_net_ratio": -26.4,
+            "today_change": -2.43,
+            "profit_loss": 0,
+            "remark": "主力净占比-26.4%小于-5%，触发卖出条件"
         }
     ]
 }
