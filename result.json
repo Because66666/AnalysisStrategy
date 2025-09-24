@@ -1,5 +1,5 @@
 {
-    "last_update": "2025-09-23 06:54:27",
+    "last_update": "2025-09-24 06:53:56",
     "settled_stocks": [
         {
             "code": "000963",
@@ -231,6 +231,39 @@
             "today_change": -2.43,
             "profit_loss": 0,
             "remark": "主力净占比-26.4%小于-5%，触发卖出条件"
+        },
+        {
+            "code": "002818",
+            "name": "富森美",
+            "buy_price": 12.32,
+            "start_time": "2025-09-15 06:55:23",
+            "current_price": 12.26,
+            "main_net_ratio": -18.21,
+            "today_change": 0.08,
+            "profit_loss": 0,
+            "remark": "主力净占比-18.21%小于-5%，触发卖出条件"
+        },
+        {
+            "code": "600662",
+            "name": "外服控股",
+            "buy_price": 5.48,
+            "start_time": "2025-09-17 06:53:30",
+            "current_price": 5.37,
+            "main_net_ratio": -6.54,
+            "today_change": 0.56,
+            "profit_loss": -0.11000000000000032,
+            "remark": "主力净占比-6.54%小于-5%，触发卖出条件"
+        },
+        {
+            "code": "002538",
+            "name": "司尔特",
+            "buy_price": 5.1,
+            "start_time": "2025-09-23 06:54:27",
+            "current_price": 5.12,
+            "main_net_ratio": -11.81,
+            "today_change": 0.2,
+            "profit_loss": 0,
+            "remark": "主力净占比-11.81%小于-5%，触发卖出条件"
         }
     ]
 }
