@@ -1,5 +1,5 @@
 {
-    "last_update": "2025-09-24 06:53:56",
+    "last_update": "2025-09-25 06:54:59",
     "settled_stocks": [
         {
             "code": "000963",
@@ -264,6 +264,28 @@
             "today_change": 0.2,
             "profit_loss": 0,
             "remark": "主力净占比-11.81%小于-5%，触发卖出条件"
+        },
+        {
+            "code": "603306",
+            "name": "华懋科技",
+            "buy_price": 51.99,
+            "start_time": "2025-09-24 06:53:56",
+            "current_price": 52.81,
+            "main_net_ratio": -3.22,
+            "today_change": 1.4,
+            "profit_loss": 0.8200000000000003,
+            "remark": "今日涨幅1.4%大于0%，且主力净占比-3.22%小于0%，触发卖出条件"
+        },
+        {
+            "code": "600395",
+            "name": "盘江股份",
+            "buy_price": 5.26,
+            "start_time": "2025-09-24 06:53:56",
+            "current_price": 5.25,
+            "main_net_ratio": -10.97,
+            "today_change": -0.38,
+            "profit_loss": 0,
+            "remark": "主力净占比-10.97%小于-5%，触发卖出条件"
         }
     ]
 }
