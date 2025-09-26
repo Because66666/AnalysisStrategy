@@ -1,5 +1,5 @@
 {
-    "last_update": "2025-09-25 06:54:59",
+    "last_update": "2025-09-26 06:53:30",
     "settled_stocks": [
         {
             "code": "000963",
@@ -286,6 +286,61 @@
             "today_change": -0.38,
             "profit_loss": 0,
             "remark": "主力净占比-10.97%小于-5%，触发卖出条件"
+        },
+        {
+            "code": "601019",
+            "name": "山东出版",
+            "buy_price": 8.06,
+            "start_time": "2025-09-16 06:53:46",
+            "current_price": 7.64,
+            "main_net_ratio": -7.08,
+            "today_change": -0.78,
+            "profit_loss": -0.4200000000000008,
+            "remark": "主力净占比-7.08%小于-5%，触发卖出条件"
+        },
+        {
+            "code": "001872",
+            "name": "招商港口",
+            "buy_price": 20.57,
+            "start_time": "2025-09-18 06:52:55",
+            "current_price": 20.31,
+            "main_net_ratio": -1.29,
+            "today_change": 1.04,
+            "profit_loss": -0.26000000000000156,
+            "remark": "今日涨幅1.04%大于0%，且主力净占比-1.29%小于0%，触发卖出条件"
+        },
+        {
+            "code": "601996",
+            "name": "丰林集团",
+            "buy_price": 2.29,
+            "start_time": "2025-09-23 06:54:27",
+            "current_price": 2.32,
+            "main_net_ratio": -4.72,
+            "today_change": 0.43,
+            "profit_loss": 0.029999999999999805,
+            "remark": "今日涨幅0.43%大于0%，且主力净占比-4.72%小于0%，触发卖出条件"
+        },
+        {
+            "code": "600782",
+            "name": "新钢股份",
+            "buy_price": 4.01,
+            "start_time": "2025-09-24 06:53:56",
+            "current_price": 4.04,
+            "main_net_ratio": -2.42,
+            "today_change": 0.75,
+            "profit_loss": 0.03000000000000025,
+            "remark": "今日涨幅0.75%大于0%，且主力净占比-2.42%小于0%，触发卖出条件"
+        },
+        {
+            "code": "600987",
+            "name": "航民股份",
+            "buy_price": 7.05,
+            "start_time": "2025-09-25 06:54:59",
+            "current_price": 7.09,
+            "main_net_ratio": -5.85,
+            "today_change": 0.0,
+            "profit_loss": 0,
+            "remark": "主力净占比-5.85%小于-5%，触发卖出条件"
         }
     ]
 }
