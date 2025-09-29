@@ -1,5 +1,5 @@
 {
-    "last_update": "2025-09-26 06:53:30",
+    "last_update": "2025-09-29 06:55:36",
     "settled_stocks": [
         {
             "code": "000963",
@@ -341,6 +341,50 @@
             "today_change": 0.0,
             "profit_loss": 0,
             "remark": "主力净占比-5.85%小于-5%，触发卖出条件"
+        },
+        {
+            "code": "688215",
+            "name": "瑞晟智能",
+            "buy_price": 75.49,
+            "start_time": "2025-09-23 06:54:27",
+            "current_price": 76.36,
+            "main_net_ratio": -1.73,
+            "today_change": 4.45,
+            "profit_loss": 0.8700000000000045,
+            "remark": "今日涨幅4.45%大于0%，且主力净占比-1.73%小于0%，触发卖出条件"
+        },
+        {
+            "code": "603180",
+            "name": "金牌家居",
+            "buy_price": 20.38,
+            "start_time": "2025-09-25 06:54:59",
+            "current_price": 20.08,
+            "main_net_ratio": -8.53,
+            "today_change": -1.13,
+            "profit_loss": -0.3000000000000007,
+            "remark": "主力净占比-8.53%小于-5%，触发卖出条件"
+        },
+        {
+            "code": "688085",
+            "name": "三友医疗",
+            "buy_price": 19.86,
+            "start_time": "2025-09-26 06:53:30",
+            "current_price": 19.37,
+            "main_net_ratio": -14.83,
+            "today_change": -2.37,
+            "profit_loss": 0,
+            "remark": "主力净占比-14.83%小于-5%，触发卖出条件"
+        },
+        {
+            "code": "688175",
+            "name": "高凌信息",
+            "buy_price": 21.75,
+            "start_time": "2025-09-26 06:53:30",
+            "current_price": 22.45,
+            "main_net_ratio": -4.55,
+            "today_change": 3.31,
+            "profit_loss": 0.6999999999999993,
+            "remark": "今日涨幅3.31%大于0%，且主力净占比-4.55%小于0%，触发卖出条件"
         }
     ]
 }
