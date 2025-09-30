@@ -1,5 +1,5 @@
 {
-    "last_update": "2025-09-29 06:55:36",
+    "last_update": "2025-09-30 06:54:54",
     "settled_stocks": [
         {
             "code": "000963",
@@ -385,6 +385,50 @@
             "today_change": 3.31,
             "profit_loss": 0.6999999999999993,
             "remark": "今日涨幅3.31%大于0%，且主力净占比-4.55%小于0%，触发卖出条件"
+        },
+        {
+            "code": "601366",
+            "name": "利群股份",
+            "buy_price": 4.55,
+            "start_time": "2025-09-24 06:53:56",
+            "current_price": 4.52,
+            "main_net_ratio": -18.03,
+            "today_change": -0.66,
+            "profit_loss": -0.03000000000000025,
+            "remark": "主力净占比-18.03%小于-5%，触发卖出条件"
+        },
+        {
+            "code": "002448",
+            "name": "中原内配",
+            "buy_price": 11.02,
+            "start_time": "2025-09-24 06:53:56",
+            "current_price": 11.1,
+            "main_net_ratio": -2.72,
+            "today_change": 0.91,
+            "profit_loss": 0.08000000000000007,
+            "remark": "今日涨幅0.91%大于0%，且主力净占比-2.72%小于0%，触发卖出条件"
+        },
+        {
+            "code": "605377",
+            "name": "华旺科技",
+            "buy_price": 9.1,
+            "start_time": "2025-09-26 06:53:30",
+            "current_price": 8.84,
+            "main_net_ratio": -7.62,
+            "today_change": 0.23,
+            "profit_loss": -0.2599999999999998,
+            "remark": "主力净占比-7.62%小于-5%，触发卖出条件"
+        },
+        {
+            "code": "002327",
+            "name": "富安娜",
+            "buy_price": 7.03,
+            "start_time": "2025-09-29 06:55:36",
+            "current_price": 7.02,
+            "main_net_ratio": -26.39,
+            "today_change": -0.14,
+            "profit_loss": 0,
+            "remark": "主力净占比-26.39%小于-5%，触发卖出条件"
         }
     ]
 }
