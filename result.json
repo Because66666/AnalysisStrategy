@@ -1,5 +1,5 @@
 {
-    "last_update": "2025-09-30 06:54:54",
+    "last_update": "2025-10-09 06:54:44",
     "settled_stocks": [
         {
             "code": "000963",
@@ -429,6 +429,39 @@
             "today_change": -0.14,
             "profit_loss": 0,
             "remark": "主力净占比-26.39%小于-5%，触发卖出条件"
+        },
+        {
+            "code": "600552",
+            "name": "凯盛科技",
+            "buy_price": 12.83,
+            "start_time": "2025-09-26 06:53:30",
+            "current_price": 12.86,
+            "main_net_ratio": -7.65,
+            "today_change": -1.0,
+            "profit_loss": 0,
+            "remark": "主力净占比-7.65%小于-5%，触发卖出条件"
+        },
+        {
+            "code": "600807",
+            "name": "济高发展",
+            "buy_price": 3.08,
+            "start_time": "2025-09-30 06:54:54",
+            "current_price": 3.05,
+            "main_net_ratio": -6.65,
+            "today_change": -0.97,
+            "profit_loss": 0,
+            "remark": "主力净占比-6.65%小于-5%，触发卖出条件"
+        },
+        {
+            "code": "000869",
+            "name": "张  裕Ａ",
+            "buy_price": 21.68,
+            "start_time": "2025-09-30 06:54:54",
+            "current_price": 21.69,
+            "main_net_ratio": -3.9,
+            "today_change": 0.09,
+            "profit_loss": 0.010000000000001563,
+            "remark": "今日涨幅0.09%大于0%，且主力净占比-3.9%小于0%，触发卖出条件"
         }
     ]
 }
