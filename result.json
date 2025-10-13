@@ -1,5 +1,5 @@
 {
-    "last_update": "2025-10-10 06:54:29",
+    "last_update": "2025-10-13 06:55:47",
     "settled_stocks": [
         {
             "code": "000963",
@@ -539,6 +539,50 @@
             "today_change": 1.54,
             "profit_loss": 0,
             "remark": "主力净占比-6.41%小于-5%，触发卖出条件"
+        },
+        {
+            "code": "603877",
+            "name": "太平鸟",
+            "buy_price": 13.81,
+            "start_time": "2025-09-30 06:54:54",
+            "current_price": 14.24,
+            "main_net_ratio": -0.39,
+            "today_change": 0.56,
+            "profit_loss": 0.4299999999999997,
+            "remark": "今日涨幅0.56%大于0%，且主力净占比-0.39%小于0%，触发卖出条件"
+        },
+        {
+            "code": "600782",
+            "name": "新钢股份",
+            "buy_price": 4.15,
+            "start_time": "2025-10-09 06:54:44",
+            "current_price": 4.23,
+            "main_net_ratio": -9.42,
+            "today_change": -0.7,
+            "profit_loss": 0,
+            "remark": "主力净占比-9.42%小于-5%，触发卖出条件"
+        },
+        {
+            "code": "688708",
+            "name": "佳驰科技",
+            "buy_price": 71.59,
+            "start_time": "2025-10-10 06:54:29",
+            "current_price": 73.43,
+            "main_net_ratio": -7.37,
+            "today_change": 2.84,
+            "profit_loss": 0,
+            "remark": "主力净占比-7.37%小于-5%，触发卖出条件"
+        },
+        {
+            "code": "688607",
+            "name": "康众医疗",
+            "buy_price": 27.85,
+            "start_time": "2025-10-10 06:54:29",
+            "current_price": 26.57,
+            "main_net_ratio": -11.26,
+            "today_change": -4.6,
+            "profit_loss": -1.2800000000000011,
+            "remark": "主力净占比-11.26%小于-5%，触发卖出条件"
         }
     ]
 }
