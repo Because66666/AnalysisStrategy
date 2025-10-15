@@ -1,5 +1,5 @@
 {
-    "last_update": "2025-10-13 06:55:47",
+    "last_update": "2025-10-15 06:54:02",
     "settled_stocks": [
         {
             "code": "000963",
@@ -583,6 +583,39 @@
             "today_change": -4.6,
             "profit_loss": -1.2800000000000011,
             "remark": "主力净占比-11.26%小于-5%，触发卖出条件"
+        },
+        {
+            "code": "300989",
+            "name": "蕾奥规划",
+            "buy_price": 16.88,
+            "start_time": "2025-10-10 06:54:29",
+            "current_price": 17.29,
+            "main_net_ratio": -4.81,
+            "today_change": 2.43,
+            "profit_loss": 0.41000000000000014,
+            "remark": "今日涨幅2.43%大于0%，且主力净占比-4.81%小于0%，触发卖出条件"
+        },
+        {
+            "code": "688030",
+            "name": "山石网科",
+            "buy_price": 20.06,
+            "start_time": "2025-10-10 06:54:29",
+            "current_price": 19.89,
+            "main_net_ratio": -4.09,
+            "today_change": 2.42,
+            "profit_loss": -0.16999999999999815,
+            "remark": "今日涨幅2.42%大于0%，且主力净占比-4.09%小于0%，触发卖出条件"
+        },
+        {
+            "code": "000726",
+            "name": "鲁  泰Ａ",
+            "buy_price": 6.76,
+            "start_time": "2025-10-13 06:55:47",
+            "current_price": 7.0,
+            "main_net_ratio": -11.74,
+            "today_change": 2.79,
+            "profit_loss": 0,
+            "remark": "主力净占比-11.74%小于-5%，触发卖出条件"
         }
     ]
 }
