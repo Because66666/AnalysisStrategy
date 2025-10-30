@@ -1,0 +1,18 @@
+2025-10-30 06:55:10,142 - INFO - 股票分析程序启动 - 2025-10-30 06:55:10
+2025-10-30 06:55:10,142 - INFO - 开始获取交易日历数据（第1次尝试）
+2025-10-30 06:55:12,117 - INFO - 成功获取交易日历数据，共8555条记录
+2025-10-30 06:55:12,124 - INFO - 今天(2025-10-30)是交易日
+2025-10-30 06:55:12,124 - INFO - 今天(2025-10-30)是交易日，开始股票分析
+2025-10-30 06:55:12,125 - INFO - 成功加载关注股票列表，共10只股票
+2025-10-30 06:55:12,125 - INFO - 开始获取A股现货数据（第1次尝试）
+2025-10-30 06:56:30,777 - INFO - 成功获取A股现货数据，共5767只股票
+2025-10-30 06:56:30,777 - INFO - 开始获取主力资金流向数据（第1次尝试）
+2025-10-30 06:57:31,726 - ERROR - 获取main_fund_flow数据失败（第1次尝试）: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2025-10-30 06:57:31,727 - INFO - 等待25秒后重试...
+2025-10-30 06:57:56,727 - INFO - 开始获取主力资金流向数据（第2次尝试）
+2025-10-30 06:57:57,467 - ERROR - 获取main_fund_flow数据失败（第2次尝试）: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2025-10-30 06:57:57,467 - INFO - 等待25秒后重试...
+2025-10-30 06:58:22,467 - INFO - 开始获取主力资金流向数据（第3次尝试）
+2025-10-30 06:58:24,759 - ERROR - 获取main_fund_flow数据失败（第3次尝试）: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2025-10-30 06:58:24,759 - ERROR - 获取main_fund_flow数据最终失败，已重试3次
+2025-10-30 06:58:24,759 - ERROR - 无法获取主力净流入排名，程序结束
