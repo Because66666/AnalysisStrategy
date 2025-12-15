@@ -1,5 +1,5 @@
 {
-    "last_update": "2025-10-15 06:54:02",
+    "last_update": "2025-12-15 07:01:36",
     "settled_stocks": [
         {
             "code": "000963",
@@ -616,6 +616,72 @@
             "today_change": 2.79,
             "profit_loss": 0,
             "remark": "主力净占比-11.74%小于-5%，触发卖出条件"
+        },
+        {
+            "code": "001872",
+            "name": "招商港口",
+            "buy_price": 20.22,
+            "start_time": "2025-09-29 06:55:36",
+            "current_price": 20.11,
+            "main_net_ratio": -5.13,
+            "today_change": 1.21,
+            "profit_loss": 0,
+            "remark": "主力净占比-5.13%小于-5%，触发卖出条件"
+        },
+        {
+            "code": "003012",
+            "name": "东鹏控股",
+            "buy_price": 7.06,
+            "start_time": "2025-10-09 06:54:44",
+            "current_price": 6.8,
+            "main_net_ratio": -4.1,
+            "today_change": 1.64,
+            "profit_loss": -0.2599999999999998,
+            "remark": "今日涨幅1.64%大于0%，且主力净占比-4.1%小于0%，触发卖出条件"
+        },
+        {
+            "code": "603235",
+            "name": "天新药业",
+            "buy_price": 26.78,
+            "start_time": "2025-10-13 06:55:47",
+            "current_price": 28.44,
+            "main_net_ratio": -12.0,
+            "today_change": 0.99,
+            "profit_loss": 0,
+            "remark": "主力净占比-12.0%小于-5%，触发卖出条件"
+        },
+        {
+            "code": "600025",
+            "name": "华能水电",
+            "buy_price": 9.8,
+            "start_time": "2025-10-15 06:54:02",
+            "current_price": 9.35,
+            "main_net_ratio": -5.5,
+            "today_change": -0.74,
+            "profit_loss": -0.45000000000000107,
+            "remark": "主力净占比-5.5%小于-5%，触发卖出条件"
+        },
+        {
+            "code": "000557",
+            "name": "西部创业",
+            "buy_price": 5.16,
+            "start_time": "2025-10-15 06:54:02",
+            "current_price": 4.91,
+            "main_net_ratio": -14.04,
+            "today_change": -0.41,
+            "profit_loss": -0.25,
+            "remark": "主力净占比-14.04%小于-5%，触发卖出条件"
+        },
+        {
+            "code": "688367",
+            "name": "工大高科",
+            "buy_price": 21.54,
+            "start_time": "2025-10-15 06:54:02",
+            "current_price": 26.66,
+            "main_net_ratio": -15.9,
+            "today_change": -2.74,
+            "profit_loss": 0,
+            "remark": "主力净占比-15.9%小于-5%，触发卖出条件"
         }
     ]
 }
