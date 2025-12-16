@@ -1,5 +1,5 @@
 {
-    "last_update": "2025-12-15 07:01:36",
+    "last_update": "2025-12-16 07:00:45",
     "settled_stocks": [
         {
             "code": "000963",
@@ -682,6 +682,72 @@
             "today_change": -2.74,
             "profit_loss": 0,
             "remark": "主力净占比-15.9%小于-5%，触发卖出条件"
+        },
+        {
+            "code": "001314",
+            "name": "亿道信息",
+            "buy_price": 50.83,
+            "start_time": "2025-09-26 06:53:30",
+            "current_price": 42.74,
+            "main_net_ratio": -6.11,
+            "today_change": -2.15,
+            "profit_loss": -8.089999999999996,
+            "remark": "主力净占比-6.11%小于-5%，触发卖出条件"
+        },
+        {
+            "code": "603987",
+            "name": "康德莱",
+            "buy_price": 9.05,
+            "start_time": "2025-10-13 06:55:47",
+            "current_price": 8.4,
+            "main_net_ratio": -12.73,
+            "today_change": -1.18,
+            "profit_loss": -0.6500000000000004,
+            "remark": "主力净占比-12.73%小于-5%，触发卖出条件"
+        },
+        {
+            "code": "300695",
+            "name": "兆丰股份",
+            "buy_price": 103.59,
+            "start_time": "2025-10-13 06:55:47",
+            "current_price": 85.39,
+            "main_net_ratio": -20.81,
+            "today_change": -3.28,
+            "profit_loss": -18.200000000000003,
+            "remark": "主力净占比-20.81%小于-5%，触发卖出条件"
+        },
+        {
+            "code": "600017",
+            "name": "日照港",
+            "buy_price": 3.17,
+            "start_time": "2025-10-15 06:54:02",
+            "current_price": 2.96,
+            "main_net_ratio": -12.35,
+            "today_change": -1.33,
+            "profit_loss": -0.20999999999999996,
+            "remark": "主力净占比-12.35%小于-5%，触发卖出条件"
+        },
+        {
+            "code": "688683",
+            "name": "莱尔科技",
+            "buy_price": 30.14,
+            "start_time": "2025-12-15 07:01:36",
+            "current_price": 29.45,
+            "main_net_ratio": -23.57,
+            "today_change": -2.29,
+            "profit_loss": 0,
+            "remark": "主力净占比-23.57%小于-5%，触发卖出条件"
+        },
+        {
+            "code": "688575",
+            "name": "亚辉龙",
+            "buy_price": 14.1,
+            "start_time": "2025-12-15 07:01:36",
+            "current_price": 14.01,
+            "main_net_ratio": -13.63,
+            "today_change": -0.64,
+            "profit_loss": 0,
+            "remark": "主力净占比-13.63%小于-5%，触发卖出条件"
         }
     ]
 }
