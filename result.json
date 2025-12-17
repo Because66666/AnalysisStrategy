@@ -1,5 +1,5 @@
 {
-    "last_update": "2025-12-16 07:00:45",
+    "last_update": "2025-12-17 06:59:49",
     "settled_stocks": [
         {
             "code": "000963",
@@ -748,6 +748,28 @@
             "today_change": -0.64,
             "profit_loss": 0,
             "remark": "主力净占比-13.63%小于-5%，触发卖出条件"
+        },
+        {
+            "code": "002128",
+            "name": "电投能源",
+            "buy_price": 27.65,
+            "start_time": "2025-12-15 07:01:36",
+            "current_price": 26.93,
+            "main_net_ratio": -3.44,
+            "today_change": 0.86,
+            "profit_loss": -0.7199999999999989,
+            "remark": "今日涨幅0.86%大于0%，且主力净占比-3.44%小于0%，触发卖出条件"
+        },
+        {
+            "code": "601827",
+            "name": "三峰环境",
+            "buy_price": 8.19,
+            "start_time": "2025-12-16 07:00:45",
+            "current_price": 8.25,
+            "main_net_ratio": -8.52,
+            "today_change": 0.73,
+            "profit_loss": 0,
+            "remark": "主力净占比-8.52%小于-5%，触发卖出条件"
         }
     ]
 }
