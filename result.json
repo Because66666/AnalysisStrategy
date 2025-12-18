@@ -1,5 +1,5 @@
 {
-    "last_update": "2025-12-17 06:59:49",
+    "last_update": "2025-12-18 06:59:40",
     "settled_stocks": [
         {
             "code": "000963",
@@ -770,6 +770,28 @@
             "today_change": 0.73,
             "profit_loss": 0,
             "remark": "主力净占比-8.52%小于-5%，触发卖出条件"
+        },
+        {
+            "code": "688121",
+            "name": "卓然股份",
+            "buy_price": 12.46,
+            "start_time": "2025-12-17 06:59:49",
+            "current_price": 12.37,
+            "main_net_ratio": -5.27,
+            "today_change": -0.64,
+            "profit_loss": 0,
+            "remark": "主力净占比-5.27%小于-5%，触发卖出条件"
+        },
+        {
+            "code": "603823",
+            "name": "百合花",
+            "buy_price": 16.11,
+            "start_time": "2025-12-17 06:59:49",
+            "current_price": 15.63,
+            "main_net_ratio": -22.68,
+            "today_change": -2.98,
+            "profit_loss": 0,
+            "remark": "主力净占比-22.68%小于-5%，触发卖出条件"
         }
     ]
 }
