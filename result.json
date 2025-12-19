@@ -1,5 +1,5 @@
 {
-    "last_update": "2025-12-18 06:59:40",
+    "last_update": "2025-12-19 06:58:43",
     "settled_stocks": [
         {
             "code": "000963",
@@ -792,6 +792,39 @@
             "today_change": -2.98,
             "profit_loss": 0,
             "remark": "主力净占比-22.68%小于-5%，触发卖出条件"
+        },
+        {
+            "code": "300784",
+            "name": "利安科技",
+            "buy_price": 49.41,
+            "start_time": "2025-12-15 07:01:36",
+            "current_price": 49.77,
+            "main_net_ratio": -7.34,
+            "today_change": 0.93,
+            "profit_loss": 0,
+            "remark": "主力净占比-7.34%小于-5%，触发卖出条件"
+        },
+        {
+            "code": "603353",
+            "name": "和顺石油",
+            "buy_price": 26.5,
+            "start_time": "2025-12-18 06:59:40",
+            "current_price": 26.8,
+            "main_net_ratio": -1.37,
+            "today_change": 1.13,
+            "profit_loss": 0.3000000000000007,
+            "remark": "今日涨幅1.13%大于0%，且主力净占比-1.37%小于0%，触发卖出条件"
+        },
+        {
+            "code": "000035",
+            "name": "中国天楹",
+            "buy_price": 5.67,
+            "start_time": "2025-12-18 06:59:40",
+            "current_price": 5.68,
+            "main_net_ratio": -5.79,
+            "today_change": 0.18,
+            "profit_loss": 0,
+            "remark": "主力净占比-5.79%小于-5%，触发卖出条件"
         }
     ]
 }
