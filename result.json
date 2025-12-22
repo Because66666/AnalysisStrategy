@@ -1,5 +1,5 @@
 {
-    "last_update": "2025-12-19 06:58:43",
+    "last_update": "2025-12-22 07:01:32",
     "settled_stocks": [
         {
             "code": "000963",
@@ -825,6 +825,94 @@
             "today_change": 0.18,
             "profit_loss": 0,
             "remark": "主力净占比-5.79%小于-5%，触发卖出条件"
+        },
+        {
+            "code": "301626",
+            "name": "苏州天脉",
+            "buy_price": 169.21,
+            "start_time": "2025-12-15 07:01:36",
+            "current_price": 168.32,
+            "main_net_ratio": -8.84,
+            "today_change": -1.57,
+            "profit_loss": 0,
+            "remark": "主力净占比-8.84%小于-5%，触发卖出条件"
+        },
+        {
+            "code": "601158",
+            "name": "重庆水务",
+            "buy_price": 4.43,
+            "start_time": "2025-12-16 07:00:45",
+            "current_price": 4.46,
+            "main_net_ratio": -9.7,
+            "today_change": 0.0,
+            "profit_loss": 0,
+            "remark": "主力净占比-9.7%小于-5%，触发卖出条件"
+        },
+        {
+            "code": "688600",
+            "name": "皖仪科技",
+            "buy_price": 23.6,
+            "start_time": "2025-12-17 06:59:49",
+            "current_price": 23.8,
+            "main_net_ratio": -0.38,
+            "today_change": 0.85,
+            "profit_loss": 0.1999999999999993,
+            "remark": "今日涨幅0.85%大于0%，且主力净占比-0.38%小于0%，触发卖出条件"
+        },
+        {
+            "code": "001236",
+            "name": "弘业期货",
+            "buy_price": 10.3,
+            "start_time": "2025-12-18 06:59:40",
+            "current_price": 10.51,
+            "main_net_ratio": -6.21,
+            "today_change": 0.1,
+            "profit_loss": 0,
+            "remark": "主力净占比-6.21%小于-5%，触发卖出条件"
+        },
+        {
+            "code": "688611",
+            "name": "杭州柯林",
+            "buy_price": 48.83,
+            "start_time": "2025-12-18 06:59:40",
+            "current_price": 50.52,
+            "main_net_ratio": -7.55,
+            "today_change": 4.79,
+            "profit_loss": 0,
+            "remark": "主力净占比-7.55%小于-5%，触发卖出条件"
+        },
+        {
+            "code": "688392",
+            "name": "骄成超声",
+            "buy_price": 114.06,
+            "start_time": "2025-12-19 06:58:43",
+            "current_price": 122.82,
+            "main_net_ratio": -3.67,
+            "today_change": 7.68,
+            "profit_loss": 8.759999999999991,
+            "remark": "今日涨幅7.68%大于0%，且主力净占比-3.67%小于0%，触发卖出条件"
+        },
+        {
+            "code": "688416",
+            "name": "恒烁股份",
+            "buy_price": 50.5,
+            "start_time": "2025-12-19 06:58:43",
+            "current_price": 50.78,
+            "main_net_ratio": -2.57,
+            "today_change": 0.61,
+            "profit_loss": 0.28000000000000114,
+            "remark": "今日涨幅0.61%大于0%，且主力净占比-2.57%小于0%，触发卖出条件"
+        },
+        {
+            "code": "002714",
+            "name": "牧原股份",
+            "buy_price": 50.14,
+            "start_time": "2025-12-19 06:58:43",
+            "current_price": 49.59,
+            "main_net_ratio": -16.19,
+            "today_change": 0.81,
+            "profit_loss": -0.5499999999999972,
+            "remark": "主力净占比-16.19%小于-5%，触发卖出条件"
         }
     ]
 }
