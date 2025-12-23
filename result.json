@@ -1,5 +1,5 @@
 {
-    "last_update": "2025-12-22 07:01:32",
+    "last_update": "2025-12-23 07:01:19",
     "settled_stocks": [
         {
             "code": "000963",
@@ -913,6 +913,28 @@
             "today_change": 0.81,
             "profit_loss": -0.5499999999999972,
             "remark": "主力净占比-16.19%小于-5%，触发卖出条件"
+        },
+        {
+            "code": "688478",
+            "name": "晶升股份",
+            "buy_price": 37.63,
+            "start_time": "2025-12-19 06:58:43",
+            "current_price": 37.65,
+            "main_net_ratio": -7.62,
+            "today_change": -0.26,
+            "profit_loss": 0,
+            "remark": "主力净占比-7.62%小于-5%，触发卖出条件"
+        },
+        {
+            "code": "688137",
+            "name": "近岸蛋白",
+            "buy_price": 40.83,
+            "start_time": "2025-12-22 07:01:32",
+            "current_price": 41.64,
+            "main_net_ratio": -18.25,
+            "today_change": 1.98,
+            "profit_loss": 0,
+            "remark": "主力净占比-18.25%小于-5%，触发卖出条件"
         }
     ]
 }
