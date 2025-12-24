@@ -1,5 +1,5 @@
 {
-    "last_update": "2025-12-23 07:01:19",
+    "last_update": "2025-12-24 07:00:48",
     "settled_stocks": [
         {
             "code": "000963",
@@ -935,6 +935,39 @@
             "today_change": 1.98,
             "profit_loss": 0,
             "remark": "主力净占比-18.25%小于-5%，触发卖出条件"
+        },
+        {
+            "code": "688410",
+            "name": "山外山",
+            "buy_price": 14.83,
+            "start_time": "2025-12-23 07:01:19",
+            "current_price": 14.64,
+            "main_net_ratio": -6.52,
+            "today_change": -1.28,
+            "profit_loss": 0,
+            "remark": "主力净占比-6.52%小于-5%，触发卖出条件"
+        },
+        {
+            "code": "603729",
+            "name": "龙韵股份",
+            "buy_price": 16.05,
+            "start_time": "2025-12-23 07:01:19",
+            "current_price": 16.1,
+            "main_net_ratio": -3.58,
+            "today_change": 0.31,
+            "profit_loss": 0.05000000000000071,
+            "remark": "今日涨幅0.31%大于0%，且主力净占比-3.58%小于0%，触发卖出条件"
+        },
+        {
+            "code": "000059",
+            "name": "华锦股份",
+            "buy_price": 5.02,
+            "start_time": "2025-12-23 07:01:19",
+            "current_price": 5.14,
+            "main_net_ratio": -6.57,
+            "today_change": 2.39,
+            "profit_loss": 0,
+            "remark": "主力净占比-6.57%小于-5%，触发卖出条件"
         }
     ]
 }
