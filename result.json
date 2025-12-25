@@ -1,5 +1,5 @@
 {
-    "last_update": "2025-12-24 07:00:48",
+    "last_update": "2025-12-25 07:00:05",
     "settled_stocks": [
         {
             "code": "000963",
@@ -968,6 +968,28 @@
             "today_change": 2.39,
             "profit_loss": 0,
             "remark": "主力净占比-6.57%小于-5%，触发卖出条件"
+        },
+        {
+            "code": "300866",
+            "name": "安克创新",
+            "buy_price": 110.22,
+            "start_time": "2025-12-18 06:59:40",
+            "current_price": 115.02,
+            "main_net_ratio": -10.89,
+            "today_change": -2.54,
+            "profit_loss": 0,
+            "remark": "主力净占比-10.89%小于-5%，触发卖出条件"
+        },
+        {
+            "code": "600987",
+            "name": "航民股份",
+            "buy_price": 7.05,
+            "start_time": "2025-12-24 07:00:48",
+            "current_price": 7.05,
+            "main_net_ratio": -12.59,
+            "today_change": 0.0,
+            "profit_loss": 0,
+            "remark": "主力净占比-12.59%小于-5%，触发卖出条件"
         }
     ]
 }
