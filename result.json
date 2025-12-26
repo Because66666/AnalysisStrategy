@@ -1,5 +1,5 @@
 {
-    "last_update": "2025-12-25 07:00:05",
+    "last_update": "2025-12-26 06:59:46",
     "settled_stocks": [
         {
             "code": "000963",
@@ -990,6 +990,50 @@
             "today_change": 0.0,
             "profit_loss": 0,
             "remark": "主力净占比-12.59%小于-5%，触发卖出条件"
+        },
+        {
+            "code": "688737",
+            "name": "中自科技",
+            "buy_price": 22.36,
+            "start_time": "2025-12-24 07:00:48",
+            "current_price": 22.23,
+            "main_net_ratio": -6.97,
+            "today_change": -0.89,
+            "profit_loss": 0,
+            "remark": "主力净占比-6.97%小于-5%，触发卖出条件"
+        },
+        {
+            "code": "688212",
+            "name": "澳华内镜",
+            "buy_price": 44.85,
+            "start_time": "2025-12-24 07:00:48",
+            "current_price": 44.25,
+            "main_net_ratio": -9.68,
+            "today_change": -1.18,
+            "profit_loss": 0,
+            "remark": "主力净占比-9.68%小于-5%，触发卖出条件"
+        },
+        {
+            "code": "601997",
+            "name": "贵阳银行",
+            "buy_price": 5.97,
+            "start_time": "2025-12-25 07:00:05",
+            "current_price": 5.9,
+            "main_net_ratio": -14.4,
+            "today_change": -1.17,
+            "profit_loss": -0.0699999999999994,
+            "remark": "主力净占比-14.4%小于-5%，触发卖出条件"
+        },
+        {
+            "code": "002791",
+            "name": "坚朗五金",
+            "buy_price": 21.7,
+            "start_time": "2025-12-25 07:00:05",
+            "current_price": 21.83,
+            "main_net_ratio": -0.8,
+            "today_change": 0.6,
+            "profit_loss": 0.129999999999999,
+            "remark": "今日涨幅0.6%大于0%，且主力净占比-0.8%小于0%，触发卖出条件"
         }
     ]
 }
