@@ -1,5 +1,5 @@
 {
-    "last_update": "2025-12-26 06:59:46",
+    "last_update": "2025-12-29 07:02:47",
     "settled_stocks": [
         {
             "code": "000963",
@@ -1034,6 +1034,39 @@
             "today_change": 0.6,
             "profit_loss": 0.129999999999999,
             "remark": "今日涨幅0.6%大于0%，且主力净占比-0.8%小于0%，触发卖出条件"
+        },
+        {
+            "code": "600665",
+            "name": "天地源",
+            "buy_price": 3.38,
+            "start_time": "2025-12-22 07:01:32",
+            "current_price": 3.27,
+            "main_net_ratio": -11.53,
+            "today_change": -0.61,
+            "profit_loss": -0.10999999999999988,
+            "remark": "主力净占比-11.53%小于-5%，触发卖出条件"
+        },
+        {
+            "code": "002608",
+            "name": "江苏国信",
+            "buy_price": 7.76,
+            "start_time": "2025-12-25 07:00:05",
+            "current_price": 7.53,
+            "main_net_ratio": -12.99,
+            "today_change": -2.96,
+            "profit_loss": 0,
+            "remark": "主力净占比-12.99%小于-5%，触发卖出条件"
+        },
+        {
+            "code": "603020",
+            "name": "爱普股份",
+            "buy_price": 10.17,
+            "start_time": "2025-12-26 06:59:46",
+            "current_price": 10.27,
+            "main_net_ratio": -2.32,
+            "today_change": 0.98,
+            "profit_loss": 0.09999999999999964,
+            "remark": "今日涨幅0.98%大于0%，且主力净占比-2.32%小于0%，触发卖出条件"
         }
     ]
 }
