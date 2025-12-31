@@ -1,5 +1,5 @@
 {
-    "last_update": "2025-12-30 07:00:01",
+    "last_update": "2025-12-31 07:00:25",
     "settled_stocks": [
         {
             "code": "000963",
@@ -1100,6 +1100,39 @@
             "today_change": -3.74,
             "profit_loss": 0,
             "remark": "主力净占比-7.3%小于-5%，触发卖出条件"
+        },
+        {
+            "code": "000707",
+            "name": "双环科技",
+            "buy_price": 6.18,
+            "start_time": "2025-12-25 07:00:05",
+            "current_price": 6.05,
+            "main_net_ratio": -15.31,
+            "today_change": -1.14,
+            "profit_loss": -0.1299999999999999,
+            "remark": "主力净占比-15.31%小于-5%，触发卖出条件"
+        },
+        {
+            "code": "603049",
+            "name": "中策橡胶",
+            "buy_price": 56.92,
+            "start_time": "2025-12-26 06:59:46",
+            "current_price": 55.95,
+            "main_net_ratio": -14.0,
+            "today_change": -1.13,
+            "profit_loss": -0.9699999999999989,
+            "remark": "主力净占比-14.0%小于-5%，触发卖出条件"
+        },
+        {
+            "code": "600720",
+            "name": "中交设计",
+            "buy_price": 7.33,
+            "start_time": "2025-12-29 07:02:47",
+            "current_price": 7.22,
+            "main_net_ratio": -21.02,
+            "today_change": -1.1,
+            "profit_loss": -0.11000000000000032,
+            "remark": "主力净占比-21.02%小于-5%，触发卖出条件"
         }
     ]
 }
