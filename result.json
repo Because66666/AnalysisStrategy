@@ -1,5 +1,5 @@
 {
-    "last_update": "2025-12-31 07:00:25",
+    "last_update": "2026-01-05 07:05:57",
     "settled_stocks": [
         {
             "code": "000963",
@@ -1133,6 +1133,61 @@
             "today_change": -1.1,
             "profit_loss": -0.11000000000000032,
             "remark": "主力净占比-21.02%小于-5%，触发卖出条件"
+        },
+        {
+            "code": "603301",
+            "name": "振德医疗",
+            "buy_price": 71.8,
+            "start_time": "2025-12-25 07:00:05",
+            "current_price": 71.56,
+            "main_net_ratio": -6.16,
+            "today_change": 1.5,
+            "profit_loss": 0,
+            "remark": "主力净占比-6.16%小于-5%，触发卖出条件"
+        },
+        {
+            "code": "600084",
+            "name": "中信尼雅",
+            "buy_price": 5.22,
+            "start_time": "2025-12-29 07:02:47",
+            "current_price": 5.3,
+            "main_net_ratio": -6.77,
+            "today_change": 0.95,
+            "profit_loss": 0,
+            "remark": "主力净占比-6.77%小于-5%，触发卖出条件"
+        },
+        {
+            "code": "000883",
+            "name": "湖北能源",
+            "buy_price": 4.58,
+            "start_time": "2025-12-29 07:02:47",
+            "current_price": 4.56,
+            "main_net_ratio": -8.63,
+            "today_change": 0.44,
+            "profit_loss": -0.020000000000000462,
+            "remark": "主力净占比-8.63%小于-5%，触发卖出条件"
+        },
+        {
+            "code": "600551",
+            "name": "时代出版",
+            "buy_price": 8.12,
+            "start_time": "2025-12-31 07:00:25",
+            "current_price": 8.3,
+            "main_net_ratio": -0.39,
+            "today_change": 2.22,
+            "profit_loss": 0.1800000000000015,
+            "remark": "今日涨幅2.22%大于0%，且主力净占比-0.39%小于0%，触发卖出条件"
+        },
+        {
+            "code": "301626",
+            "name": "苏州天脉",
+            "buy_price": 186.3,
+            "start_time": "2025-12-31 07:00:25",
+            "current_price": 185.5,
+            "main_net_ratio": -7.67,
+            "today_change": -0.43,
+            "profit_loss": 0,
+            "remark": "主力净占比-7.67%小于-5%，触发卖出条件"
         }
     ]
 }
