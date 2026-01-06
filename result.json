@@ -1,5 +1,5 @@
 {
-    "last_update": "2026-01-05 07:05:57",
+    "last_update": "2026-01-06 07:02:42",
     "settled_stocks": [
         {
             "code": "000963",
@@ -1188,6 +1188,50 @@
             "today_change": -0.43,
             "profit_loss": 0,
             "remark": "主力净占比-7.67%小于-5%，触发卖出条件"
+        },
+        {
+            "code": "603599",
+            "name": "广信股份",
+            "buy_price": 11.45,
+            "start_time": "2025-12-29 07:02:47",
+            "current_price": 11.97,
+            "main_net_ratio": -1.31,
+            "today_change": 3.46,
+            "profit_loss": 0.5200000000000014,
+            "remark": "今日涨幅3.46%大于0%，且主力净占比-1.31%小于0%，触发卖出条件"
+        },
+        {
+            "code": "603733",
+            "name": "仙鹤股份",
+            "buy_price": 24.04,
+            "start_time": "2026-01-05 07:05:57",
+            "current_price": 24.68,
+            "main_net_ratio": -10.43,
+            "today_change": 2.66,
+            "profit_loss": 0,
+            "remark": "主力净占比-10.43%小于-5%，触发卖出条件"
+        },
+        {
+            "code": "000635",
+            "name": "英 力 特",
+            "buy_price": 8.77,
+            "start_time": "2026-01-05 07:05:57",
+            "current_price": 9.01,
+            "main_net_ratio": -4.08,
+            "today_change": 2.74,
+            "profit_loss": 0.2400000000000002,
+            "remark": "今日涨幅2.74%大于0%，且主力净占比-4.08%小于0%，触发卖出条件"
+        },
+        {
+            "code": "301189",
+            "name": "奥尼电子",
+            "buy_price": 42.99,
+            "start_time": "2026-01-05 07:05:57",
+            "current_price": 43.72,
+            "main_net_ratio": -1.82,
+            "today_change": 1.7,
+            "profit_loss": 0.7299999999999969,
+            "remark": "今日涨幅1.7%大于0%，且主力净占比-1.82%小于0%，触发卖出条件"
         }
     ]
 }
