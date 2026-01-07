@@ -1,5 +1,5 @@
 {
-    "last_update": "2026-01-06 07:02:42",
+    "last_update": "2026-01-07 07:01:49",
     "settled_stocks": [
         {
             "code": "000963",
@@ -1232,6 +1232,72 @@
             "today_change": 1.7,
             "profit_loss": 0.7299999999999969,
             "remark": "今日涨幅1.7%大于0%，且主力净占比-1.82%小于0%，触发卖出条件"
+        },
+        {
+            "code": "300989",
+            "name": "蕾奥规划",
+            "buy_price": 17.07,
+            "start_time": "2025-12-23 07:01:19",
+            "current_price": 16.8,
+            "main_net_ratio": -21.2,
+            "today_change": -1.81,
+            "profit_loss": 0,
+            "remark": "主力净占比-21.2%小于-5%，触发卖出条件"
+        },
+        {
+            "code": "603755",
+            "name": "日辰股份",
+            "buy_price": 36.68,
+            "start_time": "2025-12-26 06:59:46",
+            "current_price": 37.71,
+            "main_net_ratio": -6.73,
+            "today_change": -2.05,
+            "profit_loss": 0,
+            "remark": "主力净占比-6.73%小于-5%，触发卖出条件"
+        },
+        {
+            "code": "300379",
+            "name": "东通退",
+            "buy_price": 1.23,
+            "start_time": "2025-12-30 07:00:01",
+            "current_price": 1.5,
+            "main_net_ratio": 3.0,
+            "today_change": 11.94,
+            "profit_loss": 0.27,
+            "remark": "今日涨幅11.94%大于10%，触发卖出条件"
+        },
+        {
+            "code": "003037",
+            "name": "三和管桩",
+            "buy_price": 7.95,
+            "start_time": "2025-12-30 07:00:01",
+            "current_price": 8.17,
+            "main_net_ratio": -5.15,
+            "today_change": -0.37,
+            "profit_loss": 0,
+            "remark": "主力净占比-5.15%小于-5%，触发卖出条件"
+        },
+        {
+            "code": "600790",
+            "name": "轻纺城",
+            "buy_price": 3.81,
+            "start_time": "2025-12-30 07:00:01",
+            "current_price": 3.82,
+            "main_net_ratio": -8.08,
+            "today_change": -1.29,
+            "profit_loss": 0,
+            "remark": "主力净占比-8.08%小于-5%，触发卖出条件"
+        },
+        {
+            "code": "300702",
+            "name": "天宇股份",
+            "buy_price": 24.58,
+            "start_time": "2026-01-06 07:02:42",
+            "current_price": 24.68,
+            "main_net_ratio": -0.71,
+            "today_change": 0.41,
+            "profit_loss": 0.10000000000000142,
+            "remark": "今日涨幅0.41%大于0%，且主力净占比-0.71%小于0%，触发卖出条件"
         }
     ]
 }
