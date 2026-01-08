@@ -1,5 +1,5 @@
 {
-    "last_update": "2026-01-07 07:01:49",
+    "last_update": "2026-01-08 07:01:37",
     "settled_stocks": [
         {
             "code": "000963",
@@ -1298,6 +1298,50 @@
             "today_change": 0.41,
             "profit_loss": 0.10000000000000142,
             "remark": "今日涨幅0.41%大于0%，且主力净占比-0.71%小于0%，触发卖出条件"
+        },
+        {
+            "code": "301004",
+            "name": "嘉益股份",
+            "buy_price": 52.05,
+            "start_time": "2025-12-31 07:00:25",
+            "current_price": 51.46,
+            "main_net_ratio": -5.25,
+            "today_change": -0.21,
+            "profit_loss": -0.5899999999999963,
+            "remark": "主力净占比-5.25%小于-5%，触发卖出条件"
+        },
+        {
+            "code": "688513",
+            "name": "苑东生物",
+            "buy_price": 59.82,
+            "start_time": "2026-01-06 07:02:42",
+            "current_price": 63.62,
+            "main_net_ratio": -8.11,
+            "today_change": 6.39,
+            "profit_loss": 0,
+            "remark": "主力净占比-8.11%小于-5%，触发卖出条件"
+        },
+        {
+            "code": "603385",
+            "name": "惠达卫浴",
+            "buy_price": 6.8,
+            "start_time": "2026-01-06 07:02:42",
+            "current_price": 6.81,
+            "main_net_ratio": -4.07,
+            "today_change": 1.95,
+            "profit_loss": 0.009999999999999787,
+            "remark": "今日涨幅1.95%大于0%，且主力净占比-4.07%小于0%，触发卖出条件"
+        },
+        {
+            "code": "000755",
+            "name": "山西高速",
+            "buy_price": 5.02,
+            "start_time": "2026-01-07 07:01:49",
+            "current_price": 4.96,
+            "main_net_ratio": -9.67,
+            "today_change": -1.2,
+            "profit_loss": -0.05999999999999961,
+            "remark": "主力净占比-9.67%小于-5%，触发卖出条件"
         }
     ]
 }
