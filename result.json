@@ -1,5 +1,5 @@
 {
-    "last_update": "2026-01-08 07:01:37",
+    "last_update": "2026-01-09 07:02:16",
     "settled_stocks": [
         {
             "code": "000963",
@@ -1342,6 +1342,72 @@
             "today_change": -1.2,
             "profit_loss": -0.05999999999999961,
             "remark": "主力净占比-9.67%小于-5%，触发卖出条件"
+        },
+        {
+            "code": "600488",
+            "name": "津药药业",
+            "buy_price": 4.19,
+            "start_time": "2025-12-24 07:00:48",
+            "current_price": 4.18,
+            "main_net_ratio": -0.7,
+            "today_change": 0.97,
+            "profit_loss": -0.010000000000000675,
+            "remark": "今日涨幅0.97%大于0%，且主力净占比-0.7%小于0%，触发卖出条件"
+        },
+        {
+            "code": "601166",
+            "name": "兴业银行",
+            "buy_price": 21.05,
+            "start_time": "2026-01-05 07:05:57",
+            "current_price": 20.84,
+            "main_net_ratio": -7.13,
+            "today_change": -0.38,
+            "profit_loss": 0,
+            "remark": "主力净占比-7.13%小于-5%，触发卖出条件"
+        },
+        {
+            "code": "688028",
+            "name": "沃尔德",
+            "buy_price": 66.4,
+            "start_time": "2026-01-06 07:02:42",
+            "current_price": 70.9,
+            "main_net_ratio": -5.7,
+            "today_change": 8.33,
+            "profit_loss": 0,
+            "remark": "主力净占比-5.7%小于-5%，触发卖出条件"
+        },
+        {
+            "code": "688793",
+            "name": "倍轻松",
+            "buy_price": 23.13,
+            "start_time": "2026-01-07 07:01:49",
+            "current_price": 23.56,
+            "main_net_ratio": -18.33,
+            "today_change": -0.46,
+            "profit_loss": 0,
+            "remark": "主力净占比-18.33%小于-5%，触发卖出条件"
+        },
+        {
+            "code": "002033",
+            "name": "丽江股份",
+            "buy_price": 9.24,
+            "start_time": "2026-01-08 07:01:37",
+            "current_price": 9.3,
+            "main_net_ratio": -1.11,
+            "today_change": 0.65,
+            "profit_loss": 0.0600000000000005,
+            "remark": "今日涨幅0.65%大于0%，且主力净占比-1.11%小于0%，触发卖出条件"
+        },
+        {
+            "code": "000883",
+            "name": "湖北能源",
+            "buy_price": 4.56,
+            "start_time": "2026-01-08 07:01:37",
+            "current_price": 4.58,
+            "main_net_ratio": -14.79,
+            "today_change": 0.44,
+            "profit_loss": 0,
+            "remark": "主力净占比-14.79%小于-5%，触发卖出条件"
         }
     ]
 }
