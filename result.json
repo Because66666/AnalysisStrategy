@@ -1,5 +1,5 @@
 {
-    "last_update": "2026-01-12 07:04:14",
+    "last_update": "2026-01-13 07:02:26",
     "settled_stocks": [
         {
             "code": "000963",
@@ -1485,6 +1485,39 @@
             "today_change": -0.7,
             "profit_loss": -0.02999999999999936,
             "remark": "主力净占比-13.22%小于-5%，触发卖出条件"
+        },
+        {
+            "code": "002687",
+            "name": "乔治白",
+            "buy_price": 4.76,
+            "start_time": "2026-01-06 07:02:42",
+            "current_price": 4.82,
+            "main_net_ratio": -10.68,
+            "today_change": 0.0,
+            "profit_loss": 0,
+            "remark": "主力净占比-10.68%小于-5%，触发卖出条件"
+        },
+        {
+            "code": "603565",
+            "name": "中谷物流",
+            "buy_price": 10.15,
+            "start_time": "2026-01-07 07:01:49",
+            "current_price": 10.1,
+            "main_net_ratio": -5.82,
+            "today_change": 0.2,
+            "profit_loss": 0,
+            "remark": "主力净占比-5.82%小于-5%，触发卖出条件"
+        },
+        {
+            "code": "301027",
+            "name": "华蓝集团",
+            "buy_price": 21.0,
+            "start_time": "2026-01-09 07:02:16",
+            "current_price": 20.42,
+            "main_net_ratio": -7.95,
+            "today_change": -2.53,
+            "profit_loss": -0.5799999999999983,
+            "remark": "主力净占比-7.95%小于-5%，触发卖出条件"
         }
     ]
 }
