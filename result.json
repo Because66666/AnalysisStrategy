@@ -1,5 +1,5 @@
 {
-    "last_update": "2026-01-13 07:02:26",
+    "last_update": "2026-01-14 07:01:41",
     "settled_stocks": [
         {
             "code": "000963",
@@ -1518,6 +1518,39 @@
             "today_change": -2.53,
             "profit_loss": -0.5799999999999983,
             "remark": "主力净占比-7.95%小于-5%，触发卖出条件"
+        },
+        {
+            "code": "002109",
+            "name": "兴化股份",
+            "buy_price": 3.55,
+            "start_time": "2025-12-31 07:00:25",
+            "current_price": 3.84,
+            "main_net_ratio": -6.81,
+            "today_change": -1.29,
+            "profit_loss": 0,
+            "remark": "主力净占比-6.81%小于-5%，触发卖出条件"
+        },
+        {
+            "code": "600925",
+            "name": "苏能股份",
+            "buy_price": 4.66,
+            "start_time": "2026-01-12 07:04:14",
+            "current_price": 4.61,
+            "main_net_ratio": -9.78,
+            "today_change": -0.22,
+            "profit_loss": -0.04999999999999982,
+            "remark": "主力净占比-9.78%小于-5%，触发卖出条件"
+        },
+        {
+            "code": "603121",
+            "name": "华培动力",
+            "buy_price": 22.28,
+            "start_time": "2026-01-12 07:04:14",
+            "current_price": 21.25,
+            "main_net_ratio": -7.86,
+            "today_change": -1.98,
+            "profit_loss": -1.0300000000000011,
+            "remark": "主力净占比-7.86%小于-5%，触发卖出条件"
         }
     ]
 }
