@@ -1,5 +1,5 @@
 {
-    "last_update": "2026-01-14 07:01:41",
+    "last_update": "2026-01-15 07:02:14",
     "settled_stocks": [
         {
             "code": "000963",
@@ -1551,6 +1551,50 @@
             "today_change": -1.98,
             "profit_loss": -1.0300000000000011,
             "remark": "主力净占比-7.86%小于-5%，触发卖出条件"
+        },
+        {
+            "code": "000598",
+            "name": "兴蓉环境",
+            "buy_price": 7.1,
+            "start_time": "2026-01-12 07:04:14",
+            "current_price": 7.04,
+            "main_net_ratio": -3.42,
+            "today_change": 0.57,
+            "profit_loss": -0.05999999999999961,
+            "remark": "今日涨幅0.57%大于0%，且主力净占比-3.42%小于0%，触发卖出条件"
+        },
+        {
+            "code": "002675",
+            "name": "东诚药业",
+            "buy_price": 14.76,
+            "start_time": "2026-01-14 07:01:41",
+            "current_price": 14.63,
+            "main_net_ratio": -11.72,
+            "today_change": -0.88,
+            "profit_loss": 0,
+            "remark": "主力净占比-11.72%小于-5%，触发卖出条件"
+        },
+        {
+            "code": "600572",
+            "name": "康恩贝",
+            "buy_price": 4.51,
+            "start_time": "2026-01-14 07:01:41",
+            "current_price": 4.52,
+            "main_net_ratio": -3.85,
+            "today_change": 0.22,
+            "profit_loss": 0.009999999999999787,
+            "remark": "今日涨幅0.22%大于0%，且主力净占比-3.85%小于0%，触发卖出条件"
+        },
+        {
+            "code": "000036",
+            "name": "华联控股",
+            "buy_price": 6.92,
+            "start_time": "2026-01-14 07:01:41",
+            "current_price": 6.74,
+            "main_net_ratio": -6.44,
+            "today_change": -2.6,
+            "profit_loss": 0,
+            "remark": "主力净占比-6.44%小于-5%，触发卖出条件"
         }
     ]
 }
