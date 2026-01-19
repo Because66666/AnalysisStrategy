@@ -1,5 +1,5 @@
 {
-    "last_update": "2026-01-15 07:02:14",
+    "last_update": "2026-01-19 07:06:08",
     "settled_stocks": [
         {
             "code": "000963",
@@ -1595,6 +1595,61 @@
             "today_change": -2.6,
             "profit_loss": 0,
             "remark": "主力净占比-6.44%小于-5%，触发卖出条件"
+        },
+        {
+            "code": "603299",
+            "name": "苏盐井神",
+            "buy_price": 10.79,
+            "start_time": "2026-01-12 07:04:14",
+            "current_price": 10.89,
+            "main_net_ratio": -9.73,
+            "today_change": 1.4,
+            "profit_loss": 0,
+            "remark": "主力净占比-9.73%小于-5%，触发卖出条件"
+        },
+        {
+            "code": "300588",
+            "name": "熙菱信息",
+            "buy_price": 28.61,
+            "start_time": "2026-01-13 07:02:26",
+            "current_price": 27.9,
+            "main_net_ratio": -13.57,
+            "today_change": -1.45,
+            "profit_loss": -0.7100000000000009,
+            "remark": "主力净占比-13.57%小于-5%，触发卖出条件"
+        },
+        {
+            "code": "600419",
+            "name": "天润乳业",
+            "buy_price": 10.0,
+            "start_time": "2026-01-13 07:02:26",
+            "current_price": 10.14,
+            "main_net_ratio": -20.27,
+            "today_change": 2.22,
+            "profit_loss": 0,
+            "remark": "主力净占比-20.27%小于-5%，触发卖出条件"
+        },
+        {
+            "code": "601588",
+            "name": "北辰实业",
+            "buy_price": 1.77,
+            "start_time": "2026-01-14 07:01:41",
+            "current_price": 1.73,
+            "main_net_ratio": -14.97,
+            "today_change": 1.17,
+            "profit_loss": -0.040000000000000036,
+            "remark": "主力净占比-14.97%小于-5%，触发卖出条件"
+        },
+        {
+            "code": "002397",
+            "name": "梦洁股份",
+            "buy_price": 3.98,
+            "start_time": "2026-01-15 07:02:14",
+            "current_price": 4.05,
+            "main_net_ratio": -14.03,
+            "today_change": 0.25,
+            "profit_loss": 0,
+            "remark": "主力净占比-14.03%小于-5%，触发卖出条件"
         }
     ]
 }
