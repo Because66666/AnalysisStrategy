@@ -1,0 +1,16 @@
+2026-01-20 07:04:32,407 - INFO - 股票分析程序启动 - 2026-01-20 07:04:32
+2026-01-20 07:04:32,407 - INFO - 开始获取交易日历数据（第1次尝试）
+2026-01-20 07:04:33,219 - INFO - 成功获取交易日历数据，共8797条记录
+2026-01-20 07:04:33,226 - INFO - 今天(2026-01-20)是交易日
+2026-01-20 07:04:33,227 - INFO - 今天(2026-01-20)是交易日，开始股票分析
+2026-01-20 07:04:33,227 - INFO - 成功加载关注股票列表，共12只股票
+2026-01-20 07:04:33,227 - INFO - 开始获取A股现货数据（第1次尝试）
+2026-01-20 07:08:50,399 - ERROR - 获取stock_spot数据失败（第1次尝试）: HTTPSConnectionPool(host='82.push2.eastmoney.com', port=443): Read timed out. (read timeout=15)
+2026-01-20 07:08:50,399 - INFO - 等待25秒后重试...
+2026-01-20 07:09:15,399 - INFO - 开始获取A股现货数据（第2次尝试）
+2026-01-20 07:10:07,777 - ERROR - 获取stock_spot数据失败（第2次尝试）: HTTPSConnectionPool(host='82.push2.eastmoney.com', port=443): Max retries exceeded with url: /api/qt/clist/get?pn=1&pz=100&po=1&np=1&ut=bd1d9ddb04089700cf9c27f6f7426281&fltt=2&invt=2&fid=f12&fs=m%3A0+t%3A6%2Cm%3A0+t%3A80%2Cm%3A1+t%3A2%2Cm%3A1+t%3A23%2Cm%3A0+t%3A81+s%3A2048&fields=f1%2Cf2%2Cf3%2Cf4%2Cf5%2Cf6%2Cf7%2Cf8%2Cf9%2Cf10%2Cf12%2Cf13%2Cf14%2Cf15%2Cf16%2Cf17%2Cf18%2Cf20%2Cf21%2Cf23%2Cf24%2Cf25%2Cf22%2Cf11%2Cf62%2Cf128%2Cf136%2Cf115%2Cf152 (Caused by NewConnectionError("HTTPSConnection(host='82.push2.eastmoney.com', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable"))
+2026-01-20 07:10:07,777 - INFO - 等待25秒后重试...
+2026-01-20 07:10:32,778 - INFO - 开始获取A股现货数据（第3次尝试）
+2026-01-20 07:13:27,941 - ERROR - 获取stock_spot数据失败（第3次尝试）: HTTPSConnectionPool(host='82.push2.eastmoney.com', port=443): Max retries exceeded with url: /api/qt/clist/get?pn=37&pz=100&po=1&np=1&ut=bd1d9ddb04089700cf9c27f6f7426281&fltt=2&invt=2&fid=f12&fs=m%3A0+t%3A6%2Cm%3A0+t%3A80%2Cm%3A1+t%3A2%2Cm%3A1+t%3A23%2Cm%3A0+t%3A81+s%3A2048&fields=f1%2Cf2%2Cf3%2Cf4%2Cf5%2Cf6%2Cf7%2Cf8%2Cf9%2Cf10%2Cf12%2Cf13%2Cf14%2Cf15%2Cf16%2Cf17%2Cf18%2Cf20%2Cf21%2Cf23%2Cf24%2Cf25%2Cf22%2Cf11%2Cf62%2Cf128%2Cf136%2Cf115%2Cf152 (Caused by NewConnectionError("HTTPSConnection(host='82.push2.eastmoney.com', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable"))
+2026-01-20 07:13:27,941 - ERROR - 获取stock_spot数据最终失败，已重试3次
+2026-01-20 07:13:27,941 - ERROR - 无法获取股票数据，程序结束
