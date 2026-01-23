@@ -1,5 +1,5 @@
 {
-    "last_update": "2026-01-19 07:06:08",
+    "last_update": "2026-01-23 07:02:55",
     "settled_stocks": [
         {
             "code": "000963",
@@ -1650,6 +1650,17 @@
             "today_change": 0.25,
             "profit_loss": 0,
             "remark": "主力净占比-14.03%小于-5%，触发卖出条件"
+        },
+        {
+            "code": "688484",
+            "name": "南芯科技",
+            "buy_price": 42.06,
+            "start_time": "2026-01-19 07:06:08",
+            "current_price": 43.77,
+            "main_net_ratio": -1.22,
+            "today_change": 1.72,
+            "profit_loss": 1.7100000000000009,
+            "remark": "今日涨幅1.72%大于0%，且主力净占比-1.22%小于0%，触发卖出条件"
         }
     ]
 }
