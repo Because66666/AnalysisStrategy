@@ -1,5 +1,5 @@
 {
-    "last_update": "2026-01-23 07:02:55",
+    "last_update": "2026-03-10 07:28:33",
     "settled_stocks": [
         {
             "code": "000963",
@@ -1661,6 +1661,39 @@
             "today_change": 1.72,
             "profit_loss": 1.7100000000000009,
             "remark": "今日涨幅1.72%大于0%，且主力净占比-1.22%小于0%，触发卖出条件"
+        },
+        {
+            "code": "301228",
+            "name": "实朴检测",
+            "buy_price": 39.25,
+            "start_time": "2026-01-15 07:02:14",
+            "current_price": 43.89,
+            "main_net_ratio": -3.11,
+            "today_change": 4.75,
+            "profit_loss": 4.640000000000001,
+            "remark": "今日涨幅4.75%大于0%，且主力净占比-3.11%小于0%，触发卖出条件"
+        },
+        {
+            "code": "601398",
+            "name": "工商银行",
+            "buy_price": 7.68,
+            "start_time": "2026-01-15 07:02:14",
+            "current_price": 7.04,
+            "main_net_ratio": -15.0,
+            "today_change": -0.85,
+            "profit_loss": -0.6399999999999997,
+            "remark": "主力净占比-15.0%小于-5%，触发卖出条件"
+        },
+        {
+            "code": "688286",
+            "name": "敏芯股份",
+            "buy_price": 84.5,
+            "start_time": "2026-01-19 07:06:08",
+            "current_price": 74.55,
+            "main_net_ratio": -4.75,
+            "today_change": 4.29,
+            "profit_loss": -9.950000000000003,
+            "remark": "今日涨幅4.29%大于0%，且主力净占比-4.75%小于0%，触发卖出条件"
         }
     ]
 }
