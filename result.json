@@ -1,5 +1,5 @@
 {
-    "last_update": "2026-03-10 07:28:33",
+    "last_update": "2026-03-11 07:31:20",
     "settled_stocks": [
         {
             "code": "000963",
@@ -1694,6 +1694,50 @@
             "today_change": 4.29,
             "profit_loss": -9.950000000000003,
             "remark": "今日涨幅4.29%大于0%，且主力净占比-4.75%小于0%，触发卖出条件"
+        },
+        {
+            "code": "001323",
+            "name": "慕思股份",
+            "buy_price": 25.77,
+            "start_time": "2026-01-09 07:02:16",
+            "current_price": 26.43,
+            "main_net_ratio": -11.86,
+            "today_change": -0.23,
+            "profit_loss": 0,
+            "remark": "主力净占比-11.86%小于-5%，触发卖出条件"
+        },
+        {
+            "code": "600690",
+            "name": "海尔智家",
+            "buy_price": 25.82,
+            "start_time": "2026-01-15 07:02:14",
+            "current_price": 25.19,
+            "main_net_ratio": -3.87,
+            "today_change": 1.29,
+            "profit_loss": -0.629999999999999,
+            "remark": "今日涨幅1.29%大于0%，且主力净占比-3.87%小于0%，触发卖出条件"
+        },
+        {
+            "code": "600269",
+            "name": "赣粤高速",
+            "buy_price": 4.95,
+            "start_time": "2026-01-19 07:06:08",
+            "current_price": 4.99,
+            "main_net_ratio": -9.77,
+            "today_change": 0.81,
+            "profit_loss": 0,
+            "remark": "主力净占比-9.77%小于-5%，触发卖出条件"
+        },
+        {
+            "code": "600600",
+            "name": "青岛啤酒",
+            "buy_price": 61.79,
+            "start_time": "2026-01-23 07:02:55",
+            "current_price": 63.09,
+            "main_net_ratio": -2.05,
+            "today_change": 0.22,
+            "profit_loss": 1.3000000000000043,
+            "remark": "今日涨幅0.22%大于0%，且主力净占比-2.05%小于0%，触发卖出条件"
         }
     ]
 }
