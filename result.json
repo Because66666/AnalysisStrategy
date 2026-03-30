@@ -1,5 +1,5 @@
 {
-    "last_update": "2026-03-26 07:45:08",
+    "last_update": "2026-03-30 08:11:02",
     "settled_stocks": [
         {
             "code": "000963",
@@ -1859,6 +1859,39 @@
             "today_change": 0.3,
             "profit_loss": -0.16000000000000014,
             "remark": "今日涨幅0.3%大于0%，且主力净占比-1.78%小于0%，触发卖出条件"
+        },
+        {
+            "code": "601998",
+            "name": "中信银行",
+            "buy_price": 7.39,
+            "start_time": "2026-01-09 07:02:16",
+            "current_price": 8.28,
+            "main_net_ratio": -7.96,
+            "today_change": -0.48,
+            "profit_loss": 0,
+            "remark": "主力净占比-7.96%小于-5%，触发卖出条件"
+        },
+        {
+            "code": "603939",
+            "name": "益丰药房",
+            "buy_price": 23.91,
+            "start_time": "2026-03-26 07:45:08",
+            "current_price": 24.17,
+            "main_net_ratio": -6.9,
+            "today_change": 0.29,
+            "profit_loss": 0,
+            "remark": "主力净占比-6.9%小于-5%，触发卖出条件"
+        },
+        {
+            "code": "603301",
+            "name": "振德医疗",
+            "buy_price": 92.22,
+            "start_time": "2026-03-26 07:45:08",
+            "current_price": 97.48,
+            "main_net_ratio": -4.58,
+            "today_change": 3.72,
+            "profit_loss": 5.260000000000005,
+            "remark": "今日涨幅3.72%大于0%，且主力净占比-4.58%小于0%，触发卖出条件"
         }
     ]
 }
