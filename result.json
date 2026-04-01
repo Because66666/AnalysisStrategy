@@ -1,5 +1,5 @@
 {
-    "last_update": "2026-03-31 07:54:16",
+    "last_update": "2026-04-01 08:04:20",
     "settled_stocks": [
         {
             "code": "000963",
@@ -1903,6 +1903,28 @@
             "today_change": -1.54,
             "profit_loss": -0.41000000000000014,
             "remark": "主力净占比-8.64%小于-5%，触发卖出条件"
+        },
+        {
+            "code": "000828",
+            "name": "东莞控股",
+            "buy_price": 10.06,
+            "start_time": "2026-03-30 08:11:02",
+            "current_price": 10.0,
+            "main_net_ratio": -4.44,
+            "today_change": 0.1,
+            "profit_loss": -0.0600000000000005,
+            "remark": "今日涨幅0.1%大于0%，且主力净占比-4.44%小于0%，触发卖出条件"
+        },
+        {
+            "code": "300169",
+            "name": "天晟新材",
+            "buy_price": 6.34,
+            "start_time": "2026-03-31 07:54:16",
+            "current_price": 6.13,
+            "main_net_ratio": -5.64,
+            "today_change": -3.31,
+            "profit_loss": 0,
+            "remark": "主力净占比-5.64%小于-5%，触发卖出条件"
         }
     ]
 }
