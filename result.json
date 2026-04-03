@@ -1,5 +1,5 @@
 {
-    "last_update": "2026-04-02 07:49:39",
+    "last_update": "2026-04-03 07:47:05",
     "settled_stocks": [
         {
             "code": "000963",
@@ -1980,6 +1980,39 @@
             "today_change": -1.94,
             "profit_loss": 0,
             "remark": "主力净占比-22.17%小于-5%，触发卖出条件"
+        },
+        {
+            "code": "601229",
+            "name": "上海银行",
+            "buy_price": 9.88,
+            "start_time": "2026-01-15 07:02:14",
+            "current_price": 9.83,
+            "main_net_ratio": -17.35,
+            "today_change": -1.01,
+            "profit_loss": 0,
+            "remark": "主力净占比-17.35%小于-5%，触发卖出条件"
+        },
+        {
+            "code": "002443",
+            "name": "金洲管道",
+            "buy_price": 8.54,
+            "start_time": "2026-04-02 07:49:39",
+            "current_price": 8.09,
+            "main_net_ratio": -7.0,
+            "today_change": -5.27,
+            "profit_loss": -0.4499999999999993,
+            "remark": "主力净占比-7.0%小于-5%，触发卖出条件"
+        },
+        {
+            "code": "600588",
+            "name": "用友网络",
+            "buy_price": 11.75,
+            "start_time": "2026-04-02 07:49:39",
+            "current_price": 11.48,
+            "main_net_ratio": -7.58,
+            "today_change": -2.3,
+            "profit_loss": 0,
+            "remark": "主力净占比-7.58%小于-5%，触发卖出条件"
         }
     ]
 }
