@@ -1,5 +1,5 @@
 {
-    "last_update": "2026-04-03 07:47:05",
+    "last_update": "2026-04-07 08:00:01",
     "settled_stocks": [
         {
             "code": "000963",
@@ -2013,6 +2013,61 @@
             "today_change": -2.3,
             "profit_loss": 0,
             "remark": "主力净占比-7.58%小于-5%，触发卖出条件"
+        },
+        {
+            "code": "301280",
+            "name": "珠城科技",
+            "buy_price": 50.86,
+            "start_time": "2026-03-26 07:45:08",
+            "current_price": 52.62,
+            "main_net_ratio": -5.13,
+            "today_change": 0.42,
+            "profit_loss": 0,
+            "remark": "主力净占比-5.13%小于-5%，触发卖出条件"
+        },
+        {
+            "code": "000517",
+            "name": "荣安地产",
+            "buy_price": 1.93,
+            "start_time": "2026-04-01 08:04:20",
+            "current_price": 1.91,
+            "main_net_ratio": -5.08,
+            "today_change": 2.14,
+            "profit_loss": -0.020000000000000018,
+            "remark": "主力净占比-5.08%小于-5%，触发卖出条件"
+        },
+        {
+            "code": "600729",
+            "name": "重庆百货",
+            "buy_price": 22.08,
+            "start_time": "2026-04-01 08:04:20",
+            "current_price": 21.47,
+            "main_net_ratio": -12.55,
+            "today_change": -0.05,
+            "profit_loss": -0.6099999999999994,
+            "remark": "主力净占比-12.55%小于-5%，触发卖出条件"
+        },
+        {
+            "code": "600551",
+            "name": "时代出版",
+            "buy_price": 7.98,
+            "start_time": "2026-04-02 07:49:39",
+            "current_price": 7.85,
+            "main_net_ratio": -9.92,
+            "today_change": 0.77,
+            "profit_loss": -0.13000000000000078,
+            "remark": "主力净占比-9.92%小于-5%，触发卖出条件"
+        },
+        {
+            "code": "603230",
+            "name": "内蒙新华",
+            "buy_price": 11.88,
+            "start_time": "2026-04-03 07:47:05",
+            "current_price": 12.17,
+            "main_net_ratio": -8.27,
+            "today_change": 2.44,
+            "profit_loss": 0,
+            "remark": "主力净占比-8.27%小于-5%，触发卖出条件"
         }
     ]
 }
