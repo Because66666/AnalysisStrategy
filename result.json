@@ -1,5 +1,5 @@
 {
-    "last_update": "2026-04-07 08:00:01",
+    "last_update": "2026-04-08 08:02:17",
     "settled_stocks": [
         {
             "code": "000963",
@@ -2068,6 +2068,50 @@
             "today_change": 2.44,
             "profit_loss": 0,
             "remark": "主力净占比-8.27%小于-5%，触发卖出条件"
+        },
+        {
+            "code": "300344",
+            "name": "立方退",
+            "buy_price": 0.5,
+            "start_time": "2026-03-31 07:54:16",
+            "current_price": 0.32,
+            "main_net_ratio": -6.46,
+            "today_change": 0.0,
+            "profit_loss": -0.18,
+            "remark": "主力净占比-6.46%小于-5%，触发卖出条件"
+        },
+        {
+            "code": "002285",
+            "name": "世联行",
+            "buy_price": 2.99,
+            "start_time": "2026-04-01 08:04:20",
+            "current_price": 2.95,
+            "main_net_ratio": -2.16,
+            "today_change": 2.08,
+            "profit_loss": -0.040000000000000036,
+            "remark": "今日涨幅2.08%大于0%，且主力净占比-2.16%小于0%，触发卖出条件"
+        },
+        {
+            "code": "002307",
+            "name": "北新路桥",
+            "buy_price": 4.61,
+            "start_time": "2026-04-07 08:00:01",
+            "current_price": 4.84,
+            "main_net_ratio": -0.9,
+            "today_change": 4.99,
+            "profit_loss": 0.22999999999999954,
+            "remark": "今日涨幅4.99%大于0%，且主力净占比-0.9%小于0%，触发卖出条件"
+        },
+        {
+            "code": "600035",
+            "name": "楚天高速",
+            "buy_price": 3.79,
+            "start_time": "2026-04-07 08:00:01",
+            "current_price": 3.86,
+            "main_net_ratio": -3.24,
+            "today_change": 1.85,
+            "profit_loss": 0.06999999999999984,
+            "remark": "今日涨幅1.85%大于0%，且主力净占比-3.24%小于0%，触发卖出条件"
         }
     ]
 }
