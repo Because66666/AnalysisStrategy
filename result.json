@@ -1,5 +1,5 @@
 {
-    "last_update": "2026-04-08 08:02:17",
+    "last_update": "2026-04-09 08:06:08",
     "settled_stocks": [
         {
             "code": "000963",
@@ -2112,6 +2112,94 @@
             "today_change": 1.85,
             "profit_loss": 0.06999999999999984,
             "remark": "今日涨幅1.85%大于0%，且主力净占比-3.24%小于0%，触发卖出条件"
+        },
+        {
+            "code": "301326",
+            "name": "捷邦科技",
+            "buy_price": 129.07,
+            "start_time": "2026-04-02 07:49:39",
+            "current_price": 150.22,
+            "main_net_ratio": -7.93,
+            "today_change": 2.74,
+            "profit_loss": 0,
+            "remark": "主力净占比-7.93%小于-5%，触发卖出条件"
+        },
+        {
+            "code": "002948",
+            "name": "青岛银行",
+            "buy_price": 5.27,
+            "start_time": "2026-04-03 07:47:05",
+            "current_price": 5.12,
+            "main_net_ratio": -36.03,
+            "today_change": -2.29,
+            "profit_loss": 0,
+            "remark": "主力净占比-36.03%小于-5%，触发卖出条件"
+        },
+        {
+            "code": "000089",
+            "name": "深圳机场",
+            "buy_price": 6.86,
+            "start_time": "2026-04-07 08:00:01",
+            "current_price": 6.87,
+            "main_net_ratio": -22.81,
+            "today_change": -1.72,
+            "profit_loss": 0,
+            "remark": "主力净占比-22.81%小于-5%，触发卖出条件"
+        },
+        {
+            "code": "688513",
+            "name": "苑东生物",
+            "buy_price": 78.76,
+            "start_time": "2026-04-07 08:00:01",
+            "current_price": 71.16,
+            "main_net_ratio": -7.78,
+            "today_change": -3.51,
+            "profit_loss": -7.6000000000000085,
+            "remark": "主力净占比-7.78%小于-5%，触发卖出条件"
+        },
+        {
+            "code": "002327",
+            "name": "富安娜",
+            "buy_price": 6.88,
+            "start_time": "2026-04-07 08:00:01",
+            "current_price": 6.97,
+            "main_net_ratio": -8.55,
+            "today_change": -0.14,
+            "profit_loss": 0,
+            "remark": "主力净占比-8.55%小于-5%，触发卖出条件"
+        },
+        {
+            "code": "002207",
+            "name": "准油股份",
+            "buy_price": 7.85,
+            "start_time": "2026-04-08 08:02:17",
+            "current_price": 7.99,
+            "main_net_ratio": -16.15,
+            "today_change": 1.78,
+            "profit_loss": 0,
+            "remark": "主力净占比-16.15%小于-5%，触发卖出条件"
+        },
+        {
+            "code": "601898",
+            "name": "中煤能源",
+            "buy_price": 17.55,
+            "start_time": "2026-04-08 08:02:17",
+            "current_price": 17.36,
+            "main_net_ratio": -11.2,
+            "today_change": -1.08,
+            "profit_loss": 0,
+            "remark": "主力净占比-11.2%小于-5%，触发卖出条件"
+        },
+        {
+            "code": "002035",
+            "name": "华帝股份",
+            "buy_price": 6.54,
+            "start_time": "2026-04-08 08:02:17",
+            "current_price": 6.08,
+            "main_net_ratio": -7.95,
+            "today_change": -7.03,
+            "profit_loss": -0.45999999999999996,
+            "remark": "主力净占比-7.95%小于-5%，触发卖出条件"
         }
     ]
 }
