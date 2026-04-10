@@ -1,5 +1,5 @@
 {
-    "last_update": "2026-04-09 08:06:08",
+    "last_update": "2026-04-10 08:10:56",
     "settled_stocks": [
         {
             "code": "000963",
@@ -2200,6 +2200,50 @@
             "today_change": -7.03,
             "profit_loss": -0.45999999999999996,
             "remark": "主力净占比-7.95%小于-5%，触发卖出条件"
+        },
+        {
+            "code": "600971",
+            "name": "恒源煤电",
+            "buy_price": 7.16,
+            "start_time": "2026-04-08 08:02:17",
+            "current_price": 7.36,
+            "main_net_ratio": -2.49,
+            "today_change": 1.24,
+            "profit_loss": 0.20000000000000018,
+            "remark": "今日涨幅1.24%大于0%，且主力净占比-2.49%小于0%，触发卖出条件"
+        },
+        {
+            "code": "688670",
+            "name": "金迪克",
+            "buy_price": 17.46,
+            "start_time": "2026-04-09 08:06:08",
+            "current_price": 17.55,
+            "main_net_ratio": -16.34,
+            "today_change": 0.52,
+            "profit_loss": 0,
+            "remark": "主力净占比-16.34%小于-5%，触发卖出条件"
+        },
+        {
+            "code": "300778",
+            "name": "新城市",
+            "buy_price": 12.35,
+            "start_time": "2026-04-09 08:06:08",
+            "current_price": 12.31,
+            "main_net_ratio": -8.48,
+            "today_change": -0.32,
+            "profit_loss": 0,
+            "remark": "主力净占比-8.48%小于-5%，触发卖出条件"
+        },
+        {
+            "code": "600325",
+            "name": "华发股份",
+            "buy_price": 3.46,
+            "start_time": "2026-04-09 08:06:08",
+            "current_price": 3.45,
+            "main_net_ratio": -7.41,
+            "today_change": -0.29,
+            "profit_loss": 0,
+            "remark": "主力净占比-7.41%小于-5%，触发卖出条件"
         }
     ]
 }
