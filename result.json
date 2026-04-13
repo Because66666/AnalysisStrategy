@@ -1,5 +1,5 @@
 {
-    "last_update": "2026-04-10 08:10:56",
+    "last_update": "2026-04-13 08:34:51",
     "settled_stocks": [
         {
             "code": "000963",
@@ -2244,6 +2244,17 @@
             "today_change": -0.29,
             "profit_loss": 0,
             "remark": "主力净占比-7.41%小于-5%，触发卖出条件"
+        },
+        {
+            "code": "002493",
+            "name": "荣盛石化",
+            "buy_price": 12.64,
+            "start_time": "2026-04-10 08:10:56",
+            "current_price": 12.2,
+            "main_net_ratio": -13.8,
+            "today_change": -3.48,
+            "profit_loss": 0,
+            "remark": "主力净占比-13.8%小于-5%，触发卖出条件"
         }
     ]
 }
