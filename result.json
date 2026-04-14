@@ -1,5 +1,5 @@
 {
-    "last_update": "2026-04-13 08:34:51",
+    "last_update": "2026-04-14 08:14:13",
     "settled_stocks": [
         {
             "code": "000963",
@@ -2255,6 +2255,50 @@
             "today_change": -3.48,
             "profit_loss": 0,
             "remark": "主力净占比-13.8%小于-5%，触发卖出条件"
+        },
+        {
+            "code": "688278",
+            "name": "特宝生物",
+            "buy_price": 64.44,
+            "start_time": "2026-04-09 08:06:08",
+            "current_price": 63.3,
+            "main_net_ratio": -7.83,
+            "today_change": -0.31,
+            "profit_loss": -1.1400000000000006,
+            "remark": "主力净占比-7.83%小于-5%，触发卖出条件"
+        },
+        {
+            "code": "688261",
+            "name": "东微半导",
+            "buy_price": 72.91,
+            "start_time": "2026-04-09 08:06:08",
+            "current_price": 75.29,
+            "main_net_ratio": -3.96,
+            "today_change": 2.8,
+            "profit_loss": 2.3800000000000097,
+            "remark": "今日涨幅2.8%大于0%，且主力净占比-3.96%小于0%，触发卖出条件"
+        },
+        {
+            "code": "002299",
+            "name": "圣农发展",
+            "buy_price": 18.2,
+            "start_time": "2026-04-10 08:10:56",
+            "current_price": 18.9,
+            "main_net_ratio": -2.96,
+            "today_change": 0.8,
+            "profit_loss": 0.6999999999999993,
+            "remark": "今日涨幅0.8%大于0%，且主力净占比-2.96%小于0%，触发卖出条件"
+        },
+        {
+            "code": "002542",
+            "name": "中化岩土",
+            "buy_price": 2.36,
+            "start_time": "2026-04-13 08:34:51",
+            "current_price": 2.16,
+            "main_net_ratio": -14.37,
+            "today_change": -8.47,
+            "profit_loss": -0.19999999999999973,
+            "remark": "主力净占比-14.37%小于-5%，触发卖出条件"
         }
     ]
 }
