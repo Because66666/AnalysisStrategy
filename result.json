@@ -1,5 +1,5 @@
 {
-    "last_update": "2026-04-14 08:14:13",
+    "last_update": "2026-04-16 08:17:26",
     "settled_stocks": [
         {
             "code": "000963",
@@ -2299,6 +2299,83 @@
             "today_change": -8.47,
             "profit_loss": -0.19999999999999973,
             "remark": "主力净占比-14.37%小于-5%，触发卖出条件"
+        },
+        {
+            "code": "300920",
+            "name": "润阳科技",
+            "buy_price": 40.5,
+            "start_time": "2026-04-01 08:04:20",
+            "current_price": 39.63,
+            "main_net_ratio": -6.58,
+            "today_change": 0.33,
+            "profit_loss": -0.8699999999999974,
+            "remark": "主力净占比-6.58%小于-5%，触发卖出条件"
+        },
+        {
+            "code": "300194",
+            "name": "福安药业",
+            "buy_price": 4.27,
+            "start_time": "2026-04-08 08:02:17",
+            "current_price": 4.25,
+            "main_net_ratio": -21.85,
+            "today_change": -1.39,
+            "profit_loss": 0,
+            "remark": "主力净占比-21.85%小于-5%，触发卖出条件"
+        },
+        {
+            "code": "600125",
+            "name": "铁龙物流",
+            "buy_price": 6.31,
+            "start_time": "2026-04-10 08:10:56",
+            "current_price": 6.2,
+            "main_net_ratio": -9.7,
+            "today_change": -0.64,
+            "profit_loss": -0.10999999999999943,
+            "remark": "主力净占比-9.7%小于-5%，触发卖出条件"
+        },
+        {
+            "code": "600235",
+            "name": "民丰特纸",
+            "buy_price": 6.76,
+            "start_time": "2026-04-13 08:34:51",
+            "current_price": 6.78,
+            "main_net_ratio": -12.93,
+            "today_change": 1.95,
+            "profit_loss": 0,
+            "remark": "主力净占比-12.93%小于-5%，触发卖出条件"
+        },
+        {
+            "code": "300074",
+            "name": "华平股份",
+            "buy_price": 4.12,
+            "start_time": "2026-04-14 08:14:13",
+            "current_price": 4.17,
+            "main_net_ratio": -13.7,
+            "today_change": 2.71,
+            "profit_loss": 0,
+            "remark": "主力净占比-13.7%小于-5%，触发卖出条件"
+        },
+        {
+            "code": "002911",
+            "name": "佛燃能源",
+            "buy_price": 13.84,
+            "start_time": "2026-04-14 08:14:13",
+            "current_price": 13.68,
+            "main_net_ratio": -10.56,
+            "today_change": -0.51,
+            "profit_loss": -0.16000000000000014,
+            "remark": "主力净占比-10.56%小于-5%，触发卖出条件"
+        },
+        {
+            "code": "600848",
+            "name": "上海临港",
+            "buy_price": 9.55,
+            "start_time": "2026-04-14 08:14:13",
+            "current_price": 9.42,
+            "main_net_ratio": -7.54,
+            "today_change": -0.21,
+            "profit_loss": 0,
+            "remark": "主力净占比-7.54%小于-5%，触发卖出条件"
         }
     ]
 }
