@@ -1,5 +1,5 @@
 {
-    "last_update": "2026-04-17 08:15:17",
+    "last_update": "2026-04-20 09:00:18",
     "settled_stocks": [
         {
             "code": "000963",
@@ -2453,6 +2453,39 @@
             "today_change": 0.65,
             "profit_loss": 0.04999999999999982,
             "remark": "今日涨幅0.65%大于0%，且主力净占比-1.43%小于0%，触发卖出条件"
+        },
+        {
+            "code": "603733",
+            "name": "仙鹤股份",
+            "buy_price": 22.13,
+            "start_time": "2026-04-13 08:34:51",
+            "current_price": 21.47,
+            "main_net_ratio": -7.23,
+            "today_change": 0.0,
+            "profit_loss": -0.6600000000000001,
+            "remark": "主力净占比-7.23%小于-5%，触发卖出条件"
+        },
+        {
+            "code": "300407",
+            "name": "凯发电气",
+            "buy_price": 12.6,
+            "start_time": "2026-04-13 08:34:51",
+            "current_price": 13.64,
+            "main_net_ratio": -2.01,
+            "today_change": 0.22,
+            "profit_loss": 1.040000000000001,
+            "remark": "今日涨幅0.22%大于0%，且主力净占比-2.01%小于0%，触发卖出条件"
+        },
+        {
+            "code": "000755",
+            "name": "山西高速",
+            "buy_price": 5.1,
+            "start_time": "2026-04-17 08:15:17",
+            "current_price": 5.12,
+            "main_net_ratio": -12.69,
+            "today_change": 0.39,
+            "profit_loss": 0,
+            "remark": "主力净占比-12.69%小于-5%，触发卖出条件"
         }
     ]
 }
