@@ -1,5 +1,5 @@
 {
-    "last_update": "2026-04-20 09:00:18",
+    "last_update": "2026-04-21 08:21:47",
     "settled_stocks": [
         {
             "code": "000963",
@@ -2486,6 +2486,50 @@
             "today_change": 0.39,
             "profit_loss": 0,
             "remark": "主力净占比-12.69%小于-5%，触发卖出条件"
+        },
+        {
+            "code": "603338",
+            "name": "浙江鼎力",
+            "buy_price": 49.42,
+            "start_time": "2026-04-10 08:10:56",
+            "current_price": 50.02,
+            "main_net_ratio": -7.13,
+            "today_change": -0.28,
+            "profit_loss": 0,
+            "remark": "主力净占比-7.13%小于-5%，触发卖出条件"
+        },
+        {
+            "code": "000900",
+            "name": "现代投资",
+            "buy_price": 4.08,
+            "start_time": "2026-04-20 09:00:18",
+            "current_price": 4.09,
+            "main_net_ratio": -1.11,
+            "today_change": 0.25,
+            "profit_loss": 0.009999999999999787,
+            "remark": "今日涨幅0.25%大于0%，且主力净占比-1.11%小于0%，触发卖出条件"
+        },
+        {
+            "code": "600717",
+            "name": "天津港",
+            "buy_price": 4.46,
+            "start_time": "2026-04-20 09:00:18",
+            "current_price": 4.49,
+            "main_net_ratio": -2.91,
+            "today_change": 0.67,
+            "profit_loss": 0.03000000000000025,
+            "remark": "今日涨幅0.67%大于0%，且主力净占比-2.91%小于0%，触发卖出条件"
+        },
+        {
+            "code": "600511",
+            "name": "国药股份",
+            "buy_price": 28.5,
+            "start_time": "2026-04-20 09:00:18",
+            "current_price": 28.64,
+            "main_net_ratio": -10.52,
+            "today_change": 0.49,
+            "profit_loss": 0,
+            "remark": "主力净占比-10.52%小于-5%，触发卖出条件"
         }
     ]
 }
