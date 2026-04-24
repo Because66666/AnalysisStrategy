@@ -1,5 +1,5 @@
 {
-    "last_update": "2026-04-23 08:24:09",
+    "last_update": "2026-04-24 08:35:15",
     "settled_stocks": [
         {
             "code": "000963",
@@ -2618,6 +2618,28 @@
             "today_change": 1.04,
             "profit_loss": 0,
             "remark": "主力净占比-8.64%小于-5%，触发卖出条件"
+        },
+        {
+            "code": "002016",
+            "name": "世荣兆业",
+            "buy_price": 5.55,
+            "start_time": "2026-04-20 09:00:18",
+            "current_price": 5.31,
+            "main_net_ratio": -8.83,
+            "today_change": -2.21,
+            "profit_loss": -0.2400000000000002,
+            "remark": "主力净占比-8.83%小于-5%，触发卖出条件"
+        },
+        {
+            "code": "600180",
+            "name": "瑞茂通",
+            "buy_price": 3.2,
+            "start_time": "2026-04-23 08:24:09",
+            "current_price": 2.96,
+            "main_net_ratio": -16.75,
+            "today_change": -7.5,
+            "profit_loss": -0.2400000000000002,
+            "remark": "主力净占比-16.75%小于-5%，触发卖出条件"
         }
     ]
 }
