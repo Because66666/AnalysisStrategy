@@ -1,5 +1,5 @@
 {
-    "last_update": "2026-04-24 08:35:15",
+    "last_update": "2026-05-08 08:13:10",
     "settled_stocks": [
         {
             "code": "000963",
@@ -2640,6 +2640,94 @@
             "today_change": -7.5,
             "profit_loss": -0.2400000000000002,
             "remark": "主力净占比-16.75%小于-5%，触发卖出条件"
+        },
+        {
+            "code": "600757",
+            "name": "长江传媒",
+            "buy_price": 8.74,
+            "start_time": "2026-04-20 09:00:18",
+            "current_price": 8.62,
+            "main_net_ratio": -14.7,
+            "today_change": -0.35,
+            "profit_loss": -0.120000000000001,
+            "remark": "主力净占比-14.7%小于-5%，触发卖出条件"
+        },
+        {
+            "code": "600824",
+            "name": "益民集团",
+            "buy_price": 3.97,
+            "start_time": "2026-04-21 08:21:47",
+            "current_price": 4.15,
+            "main_net_ratio": -3.2,
+            "today_change": 1.22,
+            "profit_loss": 0.18000000000000016,
+            "remark": "今日涨幅1.22%大于0%，且主力净占比-3.2%小于0%，触发卖出条件"
+        },
+        {
+            "code": "300103",
+            "name": "达刚控股",
+            "buy_price": 7.69,
+            "start_time": "2026-04-22 08:19:11",
+            "current_price": 8.46,
+            "main_net_ratio": -10.59,
+            "today_change": 0.95,
+            "profit_loss": 0,
+            "remark": "主力净占比-10.59%小于-5%，触发卖出条件"
+        },
+        {
+            "code": "688459",
+            "name": "哈铁科技",
+            "buy_price": 9.39,
+            "start_time": "2026-04-22 08:19:11",
+            "current_price": 9.3,
+            "main_net_ratio": -0.03,
+            "today_change": 0.65,
+            "profit_loss": -0.08999999999999986,
+            "remark": "今日涨幅0.65%大于0%，且主力净占比-0.03%小于0%，触发卖出条件"
+        },
+        {
+            "code": "001386",
+            "name": "马可波罗",
+            "buy_price": 19.23,
+            "start_time": "2026-04-22 08:19:11",
+            "current_price": 19.09,
+            "main_net_ratio": -11.39,
+            "today_change": 1.01,
+            "profit_loss": 0,
+            "remark": "主力净占比-11.39%小于-5%，触发卖出条件"
+        },
+        {
+            "code": "601686",
+            "name": "友发集团",
+            "buy_price": 5.87,
+            "start_time": "2026-04-22 08:19:11",
+            "current_price": 5.59,
+            "main_net_ratio": -7.2,
+            "today_change": -0.18,
+            "profit_loss": -0.28000000000000025,
+            "remark": "主力净占比-7.2%小于-5%，触发卖出条件"
+        },
+        {
+            "code": "001358",
+            "name": "兴欣新材",
+            "buy_price": 27.63,
+            "start_time": "2026-04-23 08:24:09",
+            "current_price": 30.02,
+            "main_net_ratio": -13.99,
+            "today_change": 0.54,
+            "profit_loss": 0,
+            "remark": "主力净占比-13.99%小于-5%，触发卖出条件"
+        },
+        {
+            "code": "688553",
+            "name": "汇宇制药-W",
+            "buy_price": 19.18,
+            "start_time": "2026-04-23 08:24:09",
+            "current_price": 20.2,
+            "main_net_ratio": -7.24,
+            "today_change": 0.25,
+            "profit_loss": 0,
+            "remark": "主力净占比-7.24%小于-5%，触发卖出条件"
         }
     ]
 }
