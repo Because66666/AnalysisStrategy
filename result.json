@@ -1,5 +1,5 @@
 {
-    "last_update": "2026-05-08 08:13:10",
+    "last_update": "2026-06-29 11:34:27",
     "settled_stocks": [
         {
             "code": "000963",
@@ -2728,6 +2728,72 @@
             "today_change": 0.25,
             "profit_loss": 0,
             "remark": "主力净占比-7.24%小于-5%，触发卖出条件"
+        },
+        {
+            "code": "603101",
+            "name": "汇嘉时代",
+            "buy_price": 10.0,
+            "start_time": "2026-04-21 08:21:47",
+            "current_price": 6.33,
+            "main_net_ratio": -1.59,
+            "today_change": 1.77,
+            "profit_loss": -3.67,
+            "remark": "今日涨幅1.77%大于0%，且主力净占比-1.59%小于0%，触发卖出条件"
+        },
+        {
+            "code": "688569",
+            "name": "铁科轨道",
+            "buy_price": 19.86,
+            "start_time": "2026-04-24 08:35:15",
+            "current_price": 16.06,
+            "main_net_ratio": -14.92,
+            "today_change": -0.5,
+            "profit_loss": -3.8000000000000007,
+            "remark": "主力净占比-14.92%小于-5%，触发卖出条件"
+        },
+        {
+            "code": "600662",
+            "name": "外服控股",
+            "buy_price": 5.1,
+            "start_time": "2026-04-24 08:35:15",
+            "current_price": 4.03,
+            "main_net_ratio": -3.12,
+            "today_change": 0.5,
+            "profit_loss": -1.0699999999999994,
+            "remark": "今日涨幅0.5%大于0%，且主力净占比-3.12%小于0%，触发卖出条件"
+        },
+        {
+            "code": "301053",
+            "name": "远信工业",
+            "buy_price": 67.8,
+            "start_time": "2026-05-08 08:13:10",
+            "current_price": 38.0,
+            "main_net_ratio": -12.01,
+            "today_change": -5.82,
+            "profit_loss": -29.799999999999997,
+            "remark": "主力净占比-12.01%小于-5%，触发卖出条件"
+        },
+        {
+            "code": "603866",
+            "name": "桃李面包",
+            "buy_price": 4.97,
+            "start_time": "2026-05-08 08:13:10",
+            "current_price": 3.75,
+            "main_net_ratio": -0.32,
+            "today_change": 1.35,
+            "profit_loss": -1.2199999999999998,
+            "remark": "今日涨幅1.35%大于0%，且主力净占比-0.32%小于0%，触发卖出条件"
+        },
+        {
+            "code": "300883",
+            "name": "龙利得",
+            "buy_price": 7.06,
+            "start_time": "2026-05-08 08:13:10",
+            "current_price": 6.33,
+            "main_net_ratio": -41.13,
+            "today_change": -0.31,
+            "profit_loss": -0.7299999999999995,
+            "remark": "主力净占比-41.13%小于-5%，触发卖出条件"
         }
     ]
 }
