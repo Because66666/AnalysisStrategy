@@ -1,0 +1,16 @@
+2026-06-30 10:18:32,087 - INFO - 股票分析程序启动 - 2026-06-30 10:18:32
+2026-06-30 10:18:32,088 - INFO - 开始获取交易日历数据（第1次尝试）
+2026-06-30 10:18:32,729 - INFO - 成功获取交易日历数据，共8797条记录
+2026-06-30 10:18:32,736 - INFO - 今天(2026-06-30)是交易日
+2026-06-30 10:18:32,737 - INFO - 今天(2026-06-30)是交易日，开始股票分析
+2026-06-30 10:18:32,737 - INFO - 成功加载关注股票列表，共6只股票
+2026-06-30 10:18:32,737 - INFO - 开始获取A股现货数据（第1次尝试）
+2026-06-30 10:18:41,184 - ERROR - 获取stock_spot数据失败（第1次尝试）: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-06-30 10:18:41,184 - INFO - 等待25秒后重试...
+2026-06-30 10:19:06,185 - INFO - 开始获取A股现货数据（第2次尝试）
+2026-06-30 10:19:13,062 - ERROR - 获取stock_spot数据失败（第2次尝试）: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-06-30 10:19:13,062 - INFO - 等待25秒后重试...
+2026-06-30 10:19:38,062 - INFO - 开始获取A股现货数据（第3次尝试）
+2026-06-30 10:19:46,081 - ERROR - 获取stock_spot数据失败（第3次尝试）: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-06-30 10:19:46,081 - ERROR - 获取stock_spot数据最终失败，已重试3次
+2026-06-30 10:19:46,081 - ERROR - 无法获取股票数据，程序结束
