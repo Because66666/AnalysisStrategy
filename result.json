@@ -1,5 +1,5 @@
 {
-    "last_update": "2026-06-29 11:34:27",
+    "last_update": "2026-10-13 14:34:49",
     "settled_stocks": [
         {
             "code": "000963",
@@ -2794,6 +2794,28 @@
             "today_change": -0.31,
             "profit_loss": -0.7299999999999995,
             "remark": "主力净占比-41.13%小于-5%，触发卖出条件"
+        },
+        {
+            "code": "600630",
+            "name": "龙头股份",
+            "buy_price": 9.63,
+            "start_time": "2026-06-29 11:34:27",
+            "current_price": 7.69,
+            "main_net_ratio": -1.98,
+            "today_change": 2.26,
+            "profit_loss": -1.9400000000000004,
+            "remark": "今日涨幅2.26%大于0%，且主力净占比-1.98%小于0%，触发卖出条件"
+        },
+        {
+            "code": "600816",
+            "name": "建元信托",
+            "buy_price": 2.46,
+            "start_time": "2026-06-29 11:34:27",
+            "current_price": 2.39,
+            "main_net_ratio": -2.36,
+            "today_change": 0.42,
+            "profit_loss": -0.06999999999999984,
+            "remark": "今日涨幅0.42%大于0%，且主力净占比-2.36%小于0%，触发卖出条件"
         }
     ]
 }

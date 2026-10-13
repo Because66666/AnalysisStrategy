@@ -4,53 +4,62 @@
         "name": "青岛银行",
         "buy_price": 5.71,
         "start_time": "2026-05-08 08:13:10",
-        "current_price": 5.22,
-        "main_net_ratio": 5.26,
-        "today_change": -1.14
+        "current_price": 6.09,
+        "main_net_ratio": -0.35,
+        "today_change": -2.4
     },
     {
         "code": "603609",
         "name": "禾丰股份",
         "buy_price": 6.95,
         "start_time": "2026-05-08 08:13:10",
-        "current_price": 5.84,
-        "main_net_ratio": 3.57,
-        "today_change": 3.18
-    },
-    {
-        "code": "600630",
-        "name": "龙头股份",
-        "buy_price": 9.63,
-        "start_time": "2026-06-29 11:34:27",
-        "current_price": 9.63,
-        "main_net_ratio": 23.09,
-        "today_change": -1.13
+        "current_price": 6.34,
+        "main_net_ratio": -1.84,
+        "today_change": 0.0
     },
     {
         "code": "300836",
         "name": "佰奥智能",
         "buy_price": 71.38,
         "start_time": "2026-06-29 11:34:27",
-        "current_price": 71.38,
-        "main_net_ratio": 18.05,
-        "today_change": -4.18
-    },
-    {
-        "code": "600816",
-        "name": "建元信托",
-        "buy_price": 2.46,
-        "start_time": "2026-06-29 11:34:27",
-        "current_price": 2.46,
-        "main_net_ratio": 16.94,
-        "today_change": -1.2
+        "current_price": 49.54,
+        "main_net_ratio": 3.88,
+        "today_change": 0.41
     },
     {
         "code": "301046",
         "name": "能辉科技",
         "buy_price": 24.43,
         "start_time": "2026-06-29 11:34:27",
-        "current_price": 24.43,
-        "main_net_ratio": 13.97,
-        "today_change": -8.91
+        "current_price": 27.2,
+        "main_net_ratio": 1.29,
+        "today_change": -0.07
+    },
+    {
+        "code": "601163",
+        "name": "三角轮胎",
+        "buy_price": 12.37,
+        "start_time": "2026-10-13 14:34:49",
+        "current_price": 12.37,
+        "main_net_ratio": 19.35,
+        "today_change": -0.16
+    },
+    {
+        "code": "688366",
+        "name": "昊海生科",
+        "buy_price": 30.62,
+        "start_time": "2026-10-13 14:34:49",
+        "current_price": 30.62,
+        "main_net_ratio": 15.75,
+        "today_change": -0.26
+    },
+    {
+        "code": "601827",
+        "name": "三峰环境",
+        "buy_price": 8.11,
+        "start_time": "2026-10-13 14:34:49",
+        "current_price": 8.11,
+        "main_net_ratio": 14.25,
+        "today_change": -1.22
     }
 ]
